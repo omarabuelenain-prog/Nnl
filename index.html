@@ -1,0 +1,1049 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<meta name="description" content="NK REAL ESTATE multi-project CRM">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Leads Facebook Fresh Ads">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Leads Facebook Fresh Ads - NK REAL ESTATE CRM</title>
+<style>
+:root{--bg:#f4f6f9;--surface:#fff;--surface2:#f8fafc;--text:#0b1220;--muted:#64748b;--line:#e2e8f0;--blue:#2563eb;--green:#16a34a;--red:#dc2626;--orange:#ea580c;--shadow:0 10px 30px rgba(15,23,42,.07)}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}a{text-decoration:none;color:inherit}
+.app{max-width:1180px;margin:auto;min-height:100vh;padding-bottom:calc(104px + env(safe-area-inset-bottom))}.top{background:linear-gradient(135deg,#0b1220,#182338);color:#fff;padding:calc(22px + env(safe-area-inset-top)) 18px 24px;border-radius:0 0 28px 28px;box-shadow:var(--shadow)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;gap:12px;align-items:center}.mark{width:44px;height:44px;border:1px solid rgba(255,255,255,.2);border-radius:13px;display:grid;place-items:center;font-weight:900;font-size:20px}.brand h1{font-size:23px;margin:0}.brand p{margin:3px 0 0;color:#cbd5e1;font-size:11px}
+.btn{border:0;border-radius:12px;padding:11px 14px;font-weight:800}.btn-primary{background:#fff;color:#0b1220}.btn-dark{background:#0b1220;color:#fff}.btn-soft{background:#eef2f7;color:#0b1220}.btn-danger{background:#fee2e2;color:#b91c1c}.btn-green{background:#dcfce7;color:#166534}.btn-blue{background:#dbeafe;color:#1d4ed8}
+main{padding:16px 16px calc(42px + env(safe-area-inset-bottom) + 58px)}.page{display:none}.page.active{display:block}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}.summary-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.summary-kpis .kpi{padding:16px 12px}.summary-kpis .kpi strong{font-size:clamp(25px,5vw,34px)}.kpi{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:var(--shadow);position:relative;overflow:hidden}.kpi:after{content:"";position:absolute;right:-24px;top:-24px;width:70px;height:70px;border-radius:50%;background:rgba(37,99,235,.045);pointer-events:none}.kpi small{color:var(--muted)}.kpi strong{display:block;font-size:27px;margin-top:6px}.kpi .hint{font-size:11px;color:var(--muted);margin-top:4px}.sales-values{margin-top:7px;display:flex;flex-direction:column;gap:4px}.sales-line{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:13px}.sales-line strong{font-size:17px}.sales-empty{font-size:27px;margin-top:6px;color:var(--muted)}
+.section{margin-top:22px}.section-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:11px}.section-head h2{margin:0;font-size:18px}.section-head p{margin:3px 0 0;color:var(--muted);font-size:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:var(--shadow)}.list-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}.list-row:last-child{border-bottom:0}.left{min-width:0}.name{font-weight:800;font-size:15px}.meta{font-size:12px;color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.badges{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.badge{font-size:10px;font-weight:900;border-radius:999px;padding:5px 8px;text-transform:uppercase}.hot{background:#fee2e2;color:#b91c1c}.warm{background:#ffedd5;color:#c2410c}.cold{background:#e2e8f0;color:#475569}.new{background:#dbeafe;color:#1d4ed8}.contacted{background:#e0e7ff;color:#4338ca}.viewing{background:#ccfbf1;color:#0f766e}.negotiation{background:#fef3c7;color:#92400e}.won{background:#dcfce7;color:#166534}.lost{background:#f1f5f9;color:#475569}.overdue{background:#fee2e2;color:#b91c1c}
+.tools{display:flex;gap:8px;flex-wrap:wrap}.input,.textarea{width:100%;border:1px solid var(--line);background:#fff;border-radius:11px;padding:11px;outline:none;color:var(--text)}.textarea{min-height:88px;resize:vertical}.input:focus,.textarea:focus{border-color:#94a3b8;box-shadow:0 0 0 3px rgba(37,99,235,.08)}
+.searchbar{display:grid;grid-template-columns:minmax(220px,1fr) 145px 145px 190px;gap:8px;margin-bottom:10px}.tabs{display:flex;gap:7px;overflow:auto;padding-bottom:4px;margin-bottom:10px}.tab{white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 12px;font-size:12px}.tab.active{background:#0b1220;color:#fff;border-color:#0b1220}
+.quick-actions{display:flex;gap:6px}.lead-quick-tools{display:flex;flex-direction:column;gap:7px;margin-top:9px}
+.lead-priority-tools,.lead-interest-tools,.lead-action-status-tools{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.lead-interest-tools button{min-height:36px;padding:7px 11px;border-radius:10px;font-size:12px;font-weight:900}
+.lead-interest-tools .interest-interested{background:#f0fdf4;border:1px solid #bbf7d0;color:#166534}
+.lead-interest-tools .interest-interested.active{background:#dcfce7;border:2px solid #22c55e;color:#166534}
+.lead-interest-tools .interest-not-interested{background:#fff1f2;border:1px solid #fecdd3;color:#b91c1c}
+.lead-interest-tools .interest-not-interested.active{background:#fee2e2;border:2px solid #ef4444;color:#991b1b}
+.lead-interest-tools .interest-follow-up{background:#eff6ff;border:1px solid #bfdbfe;color:#1d4ed8}
+.lead-interest-tools .interest-follow-up.active{background:#dbeafe;border:2px solid #3b82f6;color:#1e40af}
+.lead-priority-tools button.active{font-weight:900}
+.lead-quick-tools button{border:1px solid var(--line);background:#f8fafc;border-radius:8px;padding:5px 7px;font-size:10px;font-weight:800;color:#334155}.lead-quick-tools button.active{background:#dcfce7;border-color:#86efac;color:#166534}.lead-quick-tools button[data-lead-priority="hot"].active{background:#fee2e2;border-color:#fca5a5;color:#991b1b}.lead-quick-tools button[data-lead-priority="warm"].active{background:#fef3c7;border-color:#fcd34d;color:#92400e}.lead-quick-tools button[data-lead-priority="cold"].active{background:#e2e8f0;border-color:#cbd5e1;color:#475569}.icon-btn{border:0;background:#eef2f7;border-radius:9px;width:34px;height:34px;display:grid;place-items:center}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{margin-bottom:11px}.field label{display:block;font-size:11px;color:var(--muted);font-weight:800;margin:0 0 5px}.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.choice{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid var(--line);background:var(--surface2);border-radius:12px;padding:12px;text-align:start;font-weight:800;min-height:46px}.choice.has-value{background:#eff6ff;border-color:#93c5fd;color:#1d4ed8}.choice.has-value .arrow{color:#2563eb}.choice .arrow{color:var(--muted)}.choice .value{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-height:1.22;word-break:break-word}.choice.empty-choice .value{color:var(--muted);font-weight:700}
+.choice-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.choice-item{border:1px solid var(--line);background:#fff;border-radius:13px;padding:13px;text-align:start;font-weight:800;transition:.15s}.choice-item:hover{border-color:#93c5fd}.choice-item.selected{background:var(--blue);color:#fff;border-color:var(--blue);box-shadow:0 0 0 2px rgba(37,99,235,.12)}.unit-bedroom.selected,.unit-feature.selected{background:var(--blue);color:#fff;border-color:var(--blue);box-shadow:0 0 0 2px rgba(37,99,235,.14)}
+.bottom{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.96);backdrop-filter:blur(16px);border-top:1px solid var(--line);z-index:20}.nav{max-width:1180px;margin:auto;display:flex;justify-content:space-around;padding:7px 4px calc(7px + env(safe-area-inset-bottom));overflow:auto}.nav button{border:0;background:none;color:#64748b;font-size:10px;font-weight:700;padding:6px 8px;min-width:64px}.nav button span{display:block;font-size:20px;line-height:20px;margin-bottom:3px}.nav button.active{color:#0b1220}.nav button{flex:1 1 20%;max-width:none;min-width:0;padding:6px 2px;font-size:9px;line-height:12px}.nav button span:last-child{display:block;white-space:normal;overflow-wrap:anywhere}.nav button span:first-child{font-size:19px;line-height:20px}.more-link{min-height:58px;display:flex;align-items:center;gap:8px;font-size:12px}.more-link span:first-child{font-size:20px}.empty{padding:18px 4px;text-align:center;color:var(--text);min-height:54px;display:flex;flex-direction:column;justify-content:center}.empty strong{display:block;font-size:14px;margin-bottom:5px}.empty div{font-size:12px;color:var(--muted)}
+#choiceOverlay{z-index:70}.overlay{display:none;position:fixed;inset:0;background:rgba(2,6,23,.56);z-index:50;align-items:flex-end;justify-content:center}.overlay.show{display:flex}.sheet{width:min(680px,100%);max-height:94vh;overflow:auto;background:#fff;border-radius:24px 24px 0 0;padding:18px 16px calc(20px + env(safe-area-inset-bottom));animation:up .18s ease}@keyframes up{from{transform:translateY(30px);opacity:.7}to{transform:none;opacity:1}}
+.sheet-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.sheet-head h2{margin:0;font-size:20px}.close{border:0;background:#eef2f7;width:36px;height:36px;border-radius:10px;font-size:20px}.actions{display:flex;gap:8px;margin-top:14px}.actions .btn{flex:1}.detail-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.detail-head h2{margin:0}.detail-section{margin-top:18px}.detail-section h3{font-size:13px;margin:0 0 8px}.note{background:var(--surface2);border-radius:12px;padding:11px;font-size:13px;line-height:1.5}.toast{position:fixed;left:50%;bottom:86px;transform:translateX(-50%) translateY(15px);background:#0b1220;color:#fff;padding:11px 15px;border-radius:12px;font-size:12px;font-weight:700;opacity:0;pointer-events:none;transition:.2s;z-index:100;white-space:nowrap}.toast.show{opacity:1;transform:translateX(-50%)}
+.mini-btn{border:1px solid var(--line);background:var(--surface2);color:var(--text);border-radius:10px;padding:7px 10px;font-size:11px;font-weight:800}.mini-btn.selected{background:#dbeafe;color:#1d4ed8;border-color:#93c5fd}.status-choice{display:flex;align-items:center;gap:10px}.status-dot{width:14px;height:14px;border-radius:50%;display:inline-block;flex:0 0 14px;box-shadow:inset 0 0 0 1px rgba(15,23,42,.08)}.status-dot.active{background:#22c55e}.status-dot.limited{background:#f59e0b}.status-dot.sold-out{background:#ef4444}.choice-item.status-selected.active-choice{background:#dcfce7;color:#166534;border-color:#86efac}.choice-item.status-selected.limited-choice{background:#fef3c7;color:#92400e;border-color:#fcd34d}.choice-item.status-selected.sold-out-choice{background:#fee2e2;color:#991b1b;border-color:#fca5a5}.choice-item.priority-choice{display:flex;align-items:center;gap:10px;min-height:54px}.priority-dot{width:16px;height:16px;border-radius:50%;display:inline-block;flex:0 0 16px;box-shadow:inset 0 0 0 1px rgba(15,23,42,.10)}.priority-dot.hot{background:#ef4444}.priority-dot.warm{background:#f59e0b}.priority-dot.cold{background:#64748b}.choice-item.priority-choice.hot-choice{background:#fff1f2;color:#b91c1c;border-color:#fda4af}.choice-item.priority-choice.warm-choice{background:#fff7ed;color:#c2410c;border-color:#fdba74}.choice-item.priority-choice.cold-choice{background:#f1f5f9;color:#475569;border-color:#cbd5e1}.choice-item.priority-choice.priority-selected{box-shadow:0 0 0 3px rgba(37,99,235,.18);transform:translateY(-1px)}
+/* Priority stays visually consistent everywhere */
+.choice-item.priority-choice.hot-choice.priority-selected{box-shadow:0 0 0 3px rgba(239,68,68,.18);border-color:#ef4444}
+.choice-item.priority-choice.warm-choice.priority-selected{box-shadow:0 0 0 3px rgba(245,158,11,.20);border-color:#f59e0b}
+.choice-item.priority-choice.cold-choice.priority-selected{box-shadow:0 0 0 3px rgba(100,116,139,.18);border-color:#64748b}
+.choice.priority-hot .value{color:#b91c1c}.choice.priority-hot{background:#fff1f2;border-color:#fda4af}
+.choice.priority-warm .value{color:#c2410c}.choice.priority-warm{background:#fff7ed;border-color:#fdba74}
+.choice.priority-cold .value{color:#475569}.choice.priority-cold{background:#f1f5f9;border-color:#cbd5e1}.lang-btn{min-width:48px;background:rgba(255,255,255,.12)!important;color:#fff!important;border:1px solid rgba(255,255,255,.2)!important}.phone-row{display:flex;gap:8px;margin-top:8px}.phone-row .input{flex:1}.project{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}.project:last-child{border-bottom:0}.buyer-value{font-weight:900;color:var(--text)}.project-summary{display:flex;flex-direction:column;gap:10px}.project-total{font-size:18px}.project-status-counts{display:flex;flex-direction:column;gap:7px;font-size:14px}.project h3{margin:0;font-size:15px}.project p{margin:4px 0 0;color:var(--muted);font-size:12px}.small{font-size:11px;color:var(--muted)}
+.action-btn{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:11px;font-weight:800}.action-btn.won{background:#dcfce7;color:#166534;border-color:#bbf7d0}.action-btn.lost{background:#fee2e2;color:#991b1b;border-color:#fecaca}
+@media(max-width:720px){.kpis{grid-template-columns:1fr 1fr}.searchbar{grid-template-columns:1fr 1fr}.searchbar .wide{grid-column:1/-1}.grid2{grid-template-columns:1fr}.top{padding-top:calc(18px + env(safe-area-inset-top))}.choice-grid{grid-template-columns:1fr 1fr}}
+
+/* Lead list compact premium layout */
+.lead-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;padding:16px 14px;border-bottom:1px solid var(--line);position:relative}
+.lead-row:last-child{border-bottom:0}
+.lead-main{min-width:0}
+.lead-name{font-size:19px;font-weight:900;line-height:1.15;color:var(--text);margin-bottom:5px;display:flex;align-items:center;gap:8px}.lead-name.priority-name-hot{color:#dc2626}.lead-name.priority-name-warm{color:#b7791f}.lead-name.priority-name-cold{color:#475569}.property-icon{width:30px;height:30px;border-radius:9px;display:inline-grid;place-items:center;flex:0 0 30px;font-size:17px;background:#f1f5f9;border:1px solid #e2e8f0}.property-icon.residential{background:#eff6ff;border-color:#bfdbfe}.property-icon.coastal{background:#ecfeff;border-color:#a5f3fc}.property-icon.commercial{background:#f8fafc;border-color:#cbd5e1}.property-icon.medical{background:#f0fdf4;border-color:#bbf7d0}.property-icon.land{background:#f0fdf4;border-color:#bbf7d0}.property-icon.hospitality{background:#fff7ed;border-color:#fed7aa}.property-icon.industrial{background:#fefce8;border-color:#fde68a}
+.lead-project{display:inline;font-size:14px;font-weight:800;color:#334155}
+.lead-interest{display:inline;font-size:14px;font-weight:800;color:#1d4ed8;margin-left:7px}
+.lead-interest:before{content:"•";color:#94a3b8;margin-right:7px}
+.lead-contact{font-size:12px;color:var(--muted);margin-top:5px}
+.lead-budget{display:inline-flex;align-items:center;gap:5px;margin-top:6px;padding:5px 8px;border:1px solid var(--line);border-radius:10px;background:var(--soft);font-size:12px;font-weight:800;color:var(--text)}
+.lead-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px;align-items:center}
+.lead-badge{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:900;line-height:1}.lead-badge:before{content:"";width:11px;height:11px;border-radius:50%;display:inline-block;flex:0 0 11px}.lead-badge.hot:before{background:#ef4444}.lead-badge.warm:before{background:#f59e0b}.lead-badge.cold:before{background:#64748b}
+.lead-badge.hot{background:#fee2e2;color:#b91c1c}
+.lead-badge.warm{background:#ffedd5;color:#c2410c}
+.lead-badge.cold{background:#e2e8f0;color:#475569}
+.lead-actions{display:flex;flex-direction:row;align-items:center;gap:7px;flex:0 0 auto}
+.lead-actions .icon-btn{width:38px;height:38px;border-radius:11px;font-size:18px}
+.lead-actions .call-icon{background:#fee2e2;color:#b91c1c}
+.lead-actions .wa-icon{background:#dcfce7;color:#15803d}
+.lead-actions .view-icon{background:#dbeafe;color:#2563eb;font-size:25px}
+.lead-row.priority-hot{background:linear-gradient(90deg,rgba(254,226,226,.38),transparent 42%)}
+.lead-row.priority-warm{background:linear-gradient(90deg,rgba(255,237,213,.32),transparent 42%)}
+.lead-row.priority-cold{background:linear-gradient(90deg,rgba(226,232,240,.28),transparent 42%)}
+.buyer-value-line{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap;margin-top:6px}
+.buyer-value-amount{font-size:15px;font-weight:900;color:var(--text)}
+.buyer-value-currency{font-size:12px;font-weight:800;color:var(--muted)}
+@media(max-width:520px){.lead-row{grid-template-columns:minmax(0,1fr) auto;gap:9px;padding:14px 10px}.lead-name{font-size:18px}.lead-project,.lead-interest{font-size:13px}.lead-actions{gap:5px}.lead-actions .icon-btn{width:34px;height:34px}.lead-interest:before{margin-right:5px}}
+
+
+.pipeline-stage-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;list-style:none;cursor:pointer;padding:12px 10px;border-radius:14px;background:#f8fafc;min-height:58px}
+.pipeline-stage-summary::-webkit-details-marker{display:none}
+.pipeline-stage-title{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:900}
+.pipeline-stage-count{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:30px;padding:0 8px;border-radius:10px;background:#0f172a;color:#fff;font-size:15px;font-weight:900}
+.pipeline-stage-badge .badge{font-size:14px;padding:9px 13px;border:1px solid rgba(15,23,42,.08)}
+.pipeline-stage[open]>.pipeline-stage-summary{margin-bottom:10px;background:#eaf1ff}
+.pipeline-stage-items{padding:0 2px}
+
+.project-dashboard-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.project-card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:15px;box-shadow:var(--shadow);text-align:left;display:flex;flex-direction:column;gap:8px;min-height:108px}
+.project-card:active{transform:scale(.99)}
+.project-card strong{font-size:16px;line-height:1.25}
+.project-card .project-count{font-size:25px;font-weight:900;color:#1d4ed8}
+.project-card small{color:var(--muted);font-size:11px}
+.searchbar{grid-template-columns:minmax(220px,1fr) 145px 145px 190px}
+@media(max-width:900px){.project-dashboard-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.project-dashboard-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.searchbar{grid-template-columns:1fr 1fr}.searchbar .wide{grid-column:1/-1}}
+@media(max-width:420px){.project-dashboard-grid{grid-template-columns:1fr}.summary-kpis .kpi{padding:12px 8px}.summary-kpis .kpi strong{font-size:22px}}
+.dashboard-search input{flex:1;min-width:180px}.dashboard-search button{min-width:90px}@media(max-width:520px){.dashboard-search{display:grid;grid-template-columns:1fr 90px}}
+.campaign-card{display:grid;gap:12px}.campaign-recipients{max-height:360px;overflow:auto;padding:8px}.campaign-person{display:flex;gap:10px;align-items:flex-start;padding:10px 4px;border-bottom:1px solid var(--line)}.campaign-person:last-child{border-bottom:0}.campaign-person input{margin-top:4px}.campaign-person strong{display:block}.campaign-person small{display:block;color:var(--muted);margin-top:3px}.campaign-consent{display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:1.6}.campaign-consent input{margin-top:4px}.source-record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}.source-field{min-width:0}.source-field small{display:block;color:var(--muted);font-size:11px}.source-field strong{display:block;font-size:12px;overflow-wrap:anywhere}.source-folder-card{background:linear-gradient(135deg,#f8fafc,#eef2ff)!important;border-color:#cbd5e1!important}.dashboard-back{margin-bottom:10px}.source-group-note{font-size:12px;color:var(--muted);margin:6px 0 12px}
+
+.campaign-review{width:min(92vw,560px);max-height:85vh;overflow:auto;border:0;border-radius:18px;padding:20px;box-shadow:0 24px 80px #0005;color:var(--text);background:var(--card)}
+.campaign-review::backdrop{background:#0b1220aa;backdrop-filter:blur(3px)}
+.campaign-review h3{margin:0 0 8px}.campaign-review .review-row{padding:10px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}.campaign-review .review-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.campaign-review .review-actions button{flex:1;min-width:130px}
+
+/* Clear unselected vs selected states for CRM quick actions */
+.lead-priority-tools button[data-lead-priority="hot"]{background:#fff5f5;border-color:#fee2e2;color:#b91c1c}
+.lead-priority-tools button[data-lead-priority="warm"]{background:#fffbeb;border-color:#fef3c7;color:#a16207}
+.lead-priority-tools button[data-lead-priority="cold"]{background:#f8fafc;border-color:#e2e8f0;color:#64748b}
+.lead-priority-tools button[data-lead-priority="hot"].active{background:#fee2e2;border:2px solid #ef4444;color:#991b1b;box-shadow:0 1px 3px rgba(185,28,28,.12)}
+.lead-priority-tools button[data-lead-priority="warm"].active{background:#fef3c7;border:2px solid #f59e0b;color:#92400e;box-shadow:0 1px 3px rgba(161,98,7,.12)}
+.lead-priority-tools button[data-lead-priority="cold"].active{background:#e2e8f0;border:2px solid #94a3b8;color:#334155;box-shadow:0 1px 3px rgba(51,65,85,.12)}
+.lead-interest-tools .interest-interested{background:#f7fdf8;border:1px solid #dcfce7;color:#4b8060}
+.lead-interest-tools .interest-not-interested{background:#fffafa;border:1px solid #ffe4e6;color:#b86b72}
+.lead-interest-tools .interest-follow-up{background:#f8fbff;border:1px solid #dbeafe;color:#5b7db7}
+.lead-interest-tools .interest-interested.active{background:#dcfce7;border:2px solid #22c55e;color:#166534;box-shadow:0 1px 3px rgba(22,101,52,.12)}
+.lead-interest-tools .interest-not-interested.active{background:#fee2e2;border:2px solid #ef4444;color:#991b1b;box-shadow:0 1px 3px rgba(153,27,27,.12)}
+.lead-interest-tools .interest-follow-up.active{background:#dbeafe;border:2px solid #3b82f6;color:#1e40af;box-shadow:0 1px 3px rgba(30,64,175,.12)}
+.lead-action-status-tools button{background:#fafbfc;border:1px solid #e2e8f0;color:#64748b}
+.lead-action-status-tools button.active{background:#dcfce7;border:2px solid #86efac;color:#166534}
+
+/* Small display-only sequence numbers, shared across CRM lists */
+.item-index{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;min-width:22px;border-radius:7px;background:#eaf0f8;border:1px solid #d7e1ef;color:#526783;font-size:11px;font-weight:800;line-height:1;vertical-align:middle;font-variant-numeric:tabular-nums}
+.lead-name .item-index{margin-inline-end:2px}
+.numbered-project-card{display:flex;align-items:center;gap:10px}
+.numbered-project-card>.item-index{align-self:flex-start;margin-top:1px}
+.project.numbered-project-card{justify-content:flex-start}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top">
+  <div class="topbar">
+    <div class="brand"><div class="mark">C</div><div><h1 data-i18n="CRM">Leads Facebook Fresh Ads</h1><p data-i18n="Real Estate Sales Management">Real Estate Sales Management</p></div></div>
+    <div style="display:flex;gap:8px;align-items:center"><button class="btn btn-soft lang-btn" id="langBtn">AR</button><button class="btn btn-primary" id="newLeadBtn">＋ New Lead</button></div>
+  </div>
+</header>
+
+<main>
+<section class="page active" id="page-dashboard">
+  <div class="section" style="margin-top:8px">
+    <div class="section-head">
+      <div><h2>Leads Facebook Fresh Ads</h2><p>NK REAL ESTATE • إدارة ليدز إعلانات فيسبوك</p></div>
+      <button class="btn btn-soft" data-page="leads">كل السجلات</button>
+    </div>
+    <div class="summary-kpis">
+      <div class="kpi"><small>إجمالي السجلات</small><strong id="allRecordsCount">0</strong></div>
+      <div class="kpi"><small>عملاء بأسماء</small><strong id="namedRecordsCount">0</strong></div>
+      <div class="kpi"><small>سجلات بدون أسماء</small><strong id="unnamedRecordsCount">0</strong></div>
+      <div class="kpi"><small>عدد المشروعات</small><strong id="allProjectsCount">0</strong></div>
+    </div>
+    <div style="margin-top:10px"><button class="btn btn-soft" id="openUnnamedRecords" style="width:100%">عرض سجلات بدون أسماء (0) ›</button></div>
+    <div class="dashboard-search tools" style="margin-top:14px">
+      <input class="input" id="dashboardSearch" placeholder="ابحث بالاسم أو رقم التليفون أو الوحدة أو المشروع أو أي بيان">
+      <button class="btn btn-dark" id="dashboardSearchBtn">بحث</button>
+    </div>
+    <div class="meta" style="margin-top:8px">البحث يشمل بيانات العملاء الأصلية المستوردة من الملفات. الأرقام محسوبة كسجلات مصدر؛ لم يتم دمج أو حذف السجلات المتشابهة، وقد يظهر العميل بأكثر من وحدة أو في أكثر من ملف.</div>
+  </div>
+  <div class="section">
+    <div class="section-head"><div><h2>المشروعات</h2><p>كل مشروع وقاعدة بياناته منفصلة</p></div></div>
+    <div id="dashboardProjects" class="project-dashboard-grid"></div>
+  </div>
+</section>
+
+<section class="page" id="page-unnamed">
+  <div class="section-head"><div><h2>سجلات بدون أسماء</h2><p>سجلات محفوظة من الملفات الأصلية وتحتاج استكمال بيانات العميل</p></div><button class="btn btn-soft" id="backFromUnnamed">رجوع</button></div>
+  <div class="card" style="padding:14px">
+    <div class="kpi" style="margin-bottom:12px"><small>إجمالي السجلات بدون أسماء</small><strong id="unnamedPageCount">0</strong></div>
+    <input class="input" id="unnamedSearch" placeholder="ابحث بالمشروع أو الوحدة أو المصدر أو رقم الهاتف" style="width:100%">
+    <div class="meta" style="margin:8px 0">هذه السجلات محفوظة كما وردت من الملفات. لا تُحذف ولا تدخل تلقائيًا في حملات واتساب.</div>
+    <div id="unnamedList"></div>
+    <div class="tools" style="justify-content:space-between;margin-top:12px"><button class="mini-btn" id="unnamedPrev">السابق</button><span class="small" id="unnamedPager"></span><button class="mini-btn" id="unnamedNext">التالي</button></div>
+  </div>
+</section>
+
+<section class="page" id="page-leads">
+  <div class="section-head"><div><h2 data-i18n="Leads">Leads</h2><p data-i18n="Manage your pipeline">Manage your pipeline</p></div><div class="tools"><button class="btn btn-soft" id="quickAddBtn" data-i18n="Quick Add">Quick Add</button><button class="btn btn-dark" id="newLeadBtn2" data-i18n="Add Lead">＋ Add Lead</button></div></div>
+  <div class="searchbar"><input class="input wide" id="searchInput" data-ph="Search name, phone, project..." placeholder="Search name, phone, project..."><select class="input" id="stageFilter"><option value="all">All stages</option><option value="New">New</option><option value="Contacted">Contacted</option><option value="Viewing">Viewing</option><option value="Negotiation">Negotiation</option><option value="Won">Won</option><option value="Lost">Lost</option></select><select class="input" id="tempFilter"><option value="all">All priorities</option><option value="hot">Hot</option><option value="warm">Warm</option><option value="cold">Cold</option><option value="won">Won / Purchased</option></select><select class="input" id="projectFilter"><option value="all">كل المشروعات</option></select></div>
+  <div class="card" id="leadList"></div>
+</section>
+
+<section class="page" id="page-followups">
+  <div class="section-head"><div><h2 data-i18n="Follow-ups">Follow-ups</h2><p data-i18n="Never miss the next call">Never miss the next call</p></div></div>
+  <div class="tabs" id="followTabs"><button class="tab active" data-follow="all">All</button><button class="tab" data-follow="today">Today</button><button class="tab" data-follow="overdue">Overdue</button><button class="tab" data-follow="upcoming">Upcoming</button></div>
+  <div class="card" id="followList"></div>
+</section>
+
+<section class="page" id="page-deals">
+  <div class="section-head"><div><h2 data-i18n="Deals">Deals</h2><p data-i18n="Closed business and pipeline value">Closed business and pipeline value</p></div></div>
+  <div class="kpis"><div class="kpi"><small data-i18n="Won Deals">Won Deals</small><strong id="dealWon">0</strong></div><div class="kpi"><small data-i18n="Lost Deals">Lost Deals</small><strong id="dealLost">0</strong></div><div class="kpi"><small data-i18n="Sales Value">Sales Value</small><div id="dealValue" class="sales-values">—</div><div class="hint" data-i18n="By currency">By currency</div></div></div>
+  <div class="section"><div class="card" id="dealList"></div></div>
+</section>
+
+<section class="page" id="page-buyers">
+  <div class="section-head"><div><h2 data-i18n="Buyers">Buyers</h2><p data-i18n="Clients who completed a purchase">Clients who completed a purchase</p></div></div>
+  <div class="kpis"><div class="kpi"><small data-i18n="Total Buyers">Total Buyers</small><strong id="buyerCount">0</strong></div><div class="kpi"><small data-i18n="Purchased Value">Purchased Value</small><div id="buyerValue" class="sales-values">—</div><div class="hint" data-i18n="By currency">By currency</div></div></div>
+  <div class="card" id="buyerList"></div>
+</section>
+
+<section class="page" id="page-pipeline">
+  <div class="section-head"><div><h2 data-i18n="Sales Pipeline">Sales Pipeline</h2><p data-i18n="Move every lead toward a deal">Move every lead toward a deal</p></div></div>
+  <div class="card" id="pipelineList"></div>
+</section>
+
+<section class="page" id="page-commission">
+  <div class="section-head"><div><h2 data-i18n="Commission">Commission</h2><p data-i18n="Estimate your commission from closed deals">Estimate your commission from closed deals</p></div></div>
+  <div class="card"><div class="row2"><div class="field"><label data-i18n="DEAL VALUE">DEAL VALUE</label><input class="input" id="calcValue" inputmode="decimal" placeholder="15,000,000"></div><div class="field"><label data-i18n="CURRENCY">CURRENCY</label><button type="button" class="choice" id="calcCurrencyChoice"><span class="value" id="calcCurrencyChoiceText">🇪🇬 EGP</span><span class="arrow">›</span></button></div></div><div class="field"><label data-i18n="COMMISSION %">COMMISSION %</label><input class="input" id="calcRate" inputmode="decimal" value="1.5"></div><div class="tools" style="margin-bottom:10px"><button type="button" class="mini-btn rate-preset" data-rate="0.5">0.5%</button><button type="button" class="mini-btn rate-preset" data-rate="1">1%</button><button type="button" class="mini-btn rate-preset" data-rate="1.5">1.5%</button><button type="button" class="mini-btn rate-preset" data-rate="2">2%</button><button type="button" class="mini-btn rate-preset" data-rate="2.5">2.5%</button><button type="button" class="mini-btn rate-preset" data-rate="3">3%</button><button type="button" class="mini-btn rate-preset" data-rate="4">4%</button><button type="button" class="mini-btn rate-preset" data-rate="5">5%</button><button type="button" class="mini-btn rate-preset" data-rate="7.5">7.5%</button><button type="button" class="mini-btn rate-preset" data-rate="10">10%</button><button type="button" class="mini-btn rate-preset" data-rate="12.5">12.5%</button><button type="button" class="mini-btn rate-preset" data-rate="15">15%</button><button type="button" class="mini-btn rate-preset" data-rate="custom">Custom</button></div><div class="note" id="calcResult">Estimated commission: 0 EGP</div></div>
+  <div class="section"><div class="section-head"><div><h2 data-i18n="Won Deals">Won Deals</h2><p data-i18n="Based on leads marked Won">Based on leads marked Won</p></div></div><div class="card" id="commissionDeals"></div></div>
+</section>
+
+<section class="page" id="page-projects">
+  <div class="section-head"><div><h2 data-i18n="Projects">Projects</h2><p data-i18n="Your active real estate portfolio">Your active real estate portfolio</p></div></div>
+  <div class="card" id="projectList"></div>
+</section>
+
+<section class="page" id="page-campaigns">
+  <div class="section-head"><div><h2>WhatsApp Campaign</h2><p>تجهيز الحملة واختيار العملاء حسب المشروع</p></div></div>
+  <div class="card campaign-card">
+    <div class="note"><strong>الإرسال الجماعي غير مفعّل بعد.</strong> هذه الصفحة تتيح تحديد الجمهور وتجهيز الرسالة وتصدير قائمة المستلمين. الإرسال الفعلي يحتاج ربط WhatsApp Business Platform الرسمي، وموافقة العملاء على استقبال الرسائل التسويقية، واستخدام القوالب المطلوبة عند الحاجة.</div>
+    <div class="field"><label>المشروع</label><select class="input" id="campaignProject"><option value="all">كل المشروعات</option></select></div>
+    <div class="row2"><div class="field"><label>الحد الأقصى للمستلمين</label><select class="input" id="campaignLimit"><option value="50">50</option><option value="100">100</option><option value="200">200</option><option value="500">500</option></select></div><div class="field"><label>بحث بالاسم أو الرقم</label><input class="input" id="campaignSearch" placeholder="اسم العميل أو رقم التليفون"></div></div>
+    <div class="tools"><button class="btn btn-dark" id="campaignLoad">عرض العملاء ذوي أرقام واتساب بصيغة معروفة</button><button class="btn btn-soft" id="campaignSelectAll">تحديد الظاهر</button><button class="btn btn-soft" id="campaignClear">إلغاء التحديد</button></div>
+    <div class="summary-kpis"><div class="kpi"><small>مطابقون للصيغة</small><strong id="campaignEligible">0</strong></div><div class="kpi"><small>المحددون</small><strong id="campaignSelected">0</strong></div><div class="kpi"><small>بدون رابط صالح</small><strong id="campaignSkipped">0</strong></div></div>
+    <div id="campaignRecipients" class="card campaign-recipients">اختار المشروع واضغط «عرض العملاء».</div>
+    <div class="field"><label>نص الرسالة</label><textarea class="textarea" id="campaignMessage" placeholder="اكتب الرسالة هنا"></textarea></div>
+    <div class="field"><label>مرفقات الحملة (اختياري)</label><input class="input" id="campaignAttachments" type="file" accept="image/*,video/*,.pdf,application/pdf" multiple><small class="muted">تقدر تختار صورة وفيديو وملف PDF مع بعض، أو أي مجموعة منهم.</small><div id="campaignAttachmentList" class="note" style="margin-top:8px">لم يتم اختيار مرفقات.</div></div>
+    <div class="tools"><button class="btn btn-soft" id="campaignShareMedia" type="button">مشاركة الرسالة والمرفقات</button><button class="btn btn-soft" id="campaignClearMedia" type="button">إزالة كل المرفقات</button></div>
+    <div class="note">مهم: واتساب لا يسمح لصفحة CRM بتركيب المرفقات تلقائيًا داخل رابط المحادثة. زر المشاركة يفتح قائمة المشاركة في الجهاز إذا كان المتصفح يدعم مشاركة الملفات؛ اختار WhatsApp ثم المحادثة المطلوبة بنفسك. وقد تحتاج لإرسال المرفق يدويًا لكل عميل. الرسالة النصية وحدها تُجهّز في رابط المحادثة.</div>
+    <label class="campaign-consent"><input type="checkbox" id="campaignConsent"> أؤكد أن العملاء الذين سأستخدم بياناتهم وافقوا على استقبال رسائل تسويقية من الشركة، وأنني سألتزم بسياسات واتساب.</label>
+    <div class="tools"><button class="btn btn-dark" id="campaignStart">ابدأ الحملة على واتساب</button><button class="btn btn-soft" id="campaignNext" disabled>تم الإرسال يدويًا – افتح التالي</button><button class="btn btn-soft" id="campaignStop" disabled>إيقاف الحملة</button></div>
+    <div class="summary-kpis"><div class="kpi"><small>تم تأكيد إرسالها يدويًا</small><strong id="campaignSent">0</strong></div><div class="kpi"><small>متبقي في القائمة</small><strong id="campaignRemaining">0</strong></div><div class="kpi"><small>رقم المحادثة الحالية</small><strong id="campaignCurrent">—</strong></div></div>
+    <div class="note" id="campaignStatus" aria-live="polite">بعد بدء الحملة سيفتح واتساب محادثة واحدة في كل مرة برسالة مجهزة. اضغط إرسال داخل واتساب بنفسك، ثم ارجع واضغط «تم الإرسال يدويًا – افتح التالي».</div>
+    <div class="tools"><button class="btn btn-soft" id="campaignExport">تصدير قائمة المستلمين CSV</button><button class="btn btn-soft" id="campaignCopy">نسخ نص الرسالة</button></div>
+    <div class="meta">تنبيه: هذا تشغيل يدوي متتابع وليس إرسالًا آليًا جماعيًا. الملف لا يستطيع معرفة إن كانت الرسالة وصلت أو قُرئت. لا تراسل إلا من وافقوا على استقبال رسائل تسويقية، وتوقف عند طلب عدم التواصل.</div>
+  </div>
+  <dialog class="campaign-review" id="campaignReviewDialog" aria-labelledby="campaignReviewTitle">
+    <h3 id="campaignReviewTitle">مراجعة الحملة قبل البدء</h3>
+    <p class="muted">راجع التفاصيل التالية. لن تُرسل أي رسالة تلقائيًا؛ ستفتح محادثة واحدة، وتضغط إرسال بنفسك داخل واتساب.</p>
+    <div class="review-row"><span>المشروع</span><strong id="reviewProject">—</strong></div>
+    <div class="review-row"><span>عدد العملاء المحددين</span><strong id="reviewCount">0</strong></div>
+    <div class="review-row"><span>المرفقات</span><strong id="reviewFiles">لا يوجد</strong></div>
+    <div class="review-row" style="display:block"><strong>نص الرسالة</strong><div id="reviewMessage" style="white-space:pre-wrap;margin-top:7px;overflow-wrap:anywhere"></div></div>
+    <div class="review-actions"><button class="btn btn-soft" type="button" id="campaignReviewCancel">رجوع للتعديل</button><button class="btn btn-dark" type="button" id="campaignReviewConfirm">تأكيد وفتح أول محادثة</button></div>
+  </dialog>
+</section>
+
+<section class="page" id="page-settings">
+  <div class="section-head"><div><h2 data-i18n="Settings & Data">Settings & Data</h2><p data-i18n="Control your local CRM data">Control your local CRM data</p></div></div>
+  <div class="card"><div class="tools"><button class="btn btn-dark" id="exportJson" data-i18n="Export Backup">Export Backup</button><button class="btn btn-soft" id="exportCsv" data-i18n="Export CSV">Export CSV</button><label class="btn btn-soft" for="importFile" data-i18n="Import Backup">Import Backup</label><input id="importFile" type="file" accept=".json" hidden><label class="btn btn-blue" for="importLeadsFile" id="importLeadsLabel">استيراد ليدز Excel / CSV</label><input id="importLeadsFile" type="file" accept=".xlsx,.xls,.csv,.txt" hidden><button class="btn btn-danger" id="clearData" data-i18n="Clear All Data">Clear All Data</button></div><div class="section"><div class="note" data-i18n="Your CRM data is stored locally on this device. Use Export Backup regularly if you want a portable copy.">Your CRM data is stored locally on this device. Use Export Backup regularly if you want a portable copy.</div><div class="note" style="margin-top:8px">استيراد الليدز يضيف العملاء إلى الموجودين ولا يستبدلهم. يتم تخطي الأرقام المكررة، وتأكد من تصدير نسخة احتياطية أولًا.</div></div></div>
+</section>
+</main>
+</div>
+
+<div class="bottom"><nav class="nav">
+<button class="active" data-page="dashboard"><span>⌂</span><span data-i18n="Home">Home</span></button>
+<button data-page="leads"><span>♙</span><span data-i18n="Leads">Leads</span></button>
+<button data-page="followups"><span>◷</span><span data-i18n="Follow">Follow</span></button>
+<button data-page="deals"><span>◆</span><span data-i18n="Deals">Deals</span></button>
+<button id="moreNavBtn"><span>•••</span><span data-i18n="More">More</span></button>
+</nav></div>
+
+<div class="overlay" id="moreOverlay"><div class="sheet">
+  <div class="sheet-head"><h2 data-i18n="More">More</h2><button class="close" id="closeMore">×</button></div>
+  <div class="choice-grid">
+    <button class="choice-item more-link" data-page="pipeline"><span>▦</span> <span data-i18n="Sales Pipeline">Sales Pipeline</span></button>
+    <button class="choice-item more-link" data-page="commission"><span>％</span> <span data-i18n="Commission">Commission</span></button>
+    <button class="choice-item more-link" data-page="buyers"><span>👤</span> <span data-i18n="Buyers">Buyers</span></button>
+    <button class="choice-item more-link" data-page="projects"><span>⌂</span> <span data-i18n="Projects">Projects</span></button><button class="choice-item more-link" data-page="campaigns"><span>◉</span> WhatsApp Campaign</button>
+    <button class="choice-item more-link" data-page="settings"><span>⚙</span> <span data-i18n="Settings">Settings</span></button>
+  </div>
+</div></div>
+
+<div class="overlay" id="leadOverlay"><div class="sheet">
+  <div class="sheet-head"><h2 id="formTitle">New Lead</h2><button class="close" id="closeLead">×</button></div>
+  <div class="row2">
+    <div class="field"><label data-i18n="FULL NAME *">FULL NAME *</label><input class="input" id="fName" autocomplete="name" placeholder="Client name" data-ph="Client name"></div>
+    <div class="field"><label data-i18n="PRIMARY PHONE">PRIMARY PHONE</label><input class="input" id="fPhone" autocomplete="tel" inputmode="tel" placeholder="01xxxxxxxxx"></div>
+  </div>
+  <div class="field"><div style="display:flex;align-items:center;justify-content:space-between;gap:8px"><label data-i18n="ADDITIONAL PHONE">ADDITIONAL PHONE</label><button type="button" class="mini-btn" id="addPhoneBtn">＋ <span data-i18n="Add another">Add another</span></button></div><div id="extraPhones"></div></div>
+
+  <div class="row2">
+    <div class="field"><label data-i18n="PROJECT">PROJECT</label><button type="button" class="choice" id="projectChoice"><span class="value" id="projectChoiceText">Select project</span><span class="arrow">›</span></button><input class="input" id="fCustomProject" placeholder="Type project name" data-ph="Type project name" style="display:none;margin-top:7px"></div>
+    <div class="field"><label data-i18n="BUDGET">BUDGET</label><button type="button" class="choice" id="budgetChoice"><span class="value" id="budgetChoiceText">Choose budget</span><span class="arrow">›</span></button><input class="input" id="fCustomBudget" inputmode="decimal" placeholder="Enter custom amount" data-ph="Enter custom amount" style="display:none;margin-top:7px"></div>
+  </div>
+  <div class="field"><label data-i18n="CURRENCY">CURRENCY</label><button type="button" class="choice" id="currencyChoice"><span class="value" id="currencyChoiceText">🇪🇬 EGP</span><span class="arrow">›</span></button></div>
+
+  <div class="row2">
+    <div class="field"><label data-i18n="PROPERTY CATEGORY">PROPERTY CATEGORY</label><button type="button" class="choice" id="categoryChoice"><span class="value" id="categoryChoiceText">Select category</span><span class="arrow">›</span></button></div>
+    <div class="field"><label data-i18n="PROPERTY INTEREST">PROPERTY INTEREST</label><button type="button" class="choice" id="interestChoice"><span class="value" id="interestChoiceText">Select interest</span><span class="arrow">›</span></button><input class="input" id="fCustomInterest" placeholder="Type interest" data-ph="Type interest" style="display:none;margin-top:7px"></div>
+  </div>
+
+  <div class="row2">
+    <div class="field"><label data-i18n="UNIT DETAILS">UNIT DETAILS</label><button type="button" class="choice" id="unitChoice"><span class="value" id="unitChoiceText">Select unit details</span><span class="arrow">›</span></button></div>
+    <div class="field"><label data-i18n="LEAD SOURCE">LEAD SOURCE</label><button type="button" class="choice" id="sourceChoice"><span class="value" id="sourceChoiceText">Select source</span><span class="arrow">›</span></button></div>
+  </div>
+
+  <div class="row2">
+    <div class="field"><label data-i18n="PRIORITY">PRIORITY</label><button type="button" class="choice" id="tempChoice"><span class="value" id="tempChoiceText">Warm</span><span class="arrow">›</span></button></div>
+    <div class="field"><label data-i18n="STAGE">STAGE</label><button type="button" class="choice" id="stageChoice"><span class="value" id="stageChoiceText">New</span><span class="arrow">›</span></button></div>
+  </div>
+
+  <div class="field"><label data-i18n="NEXT ACTION">NEXT ACTION</label><button type="button" class="choice" id="actionChoice"><span class="value" id="actionChoiceText">Follow-up</span><span class="arrow">›</span></button></div>
+
+  <div class="row2">
+    <div class="field"><label data-i18n="FOLLOW-UP DATE">FOLLOW-UP DATE</label><input class="input" id="fDate" type="date"></div>
+    <div class="field"><label data-i18n="FOLLOW-UP TIME">FOLLOW-UP TIME</label><input class="input" id="fTime" type="time"></div>
+  </div>
+  <div class="field"><label data-i18n="NOTES">NOTES</label><textarea class="textarea" id="fNotes" placeholder="Unit preference, objections, notes..." data-ph="Unit preference, objections, notes..."></textarea></div>
+  <div class="actions"><button class="btn btn-soft" id="cancelLead" data-i18n="Cancel">Cancel</button><button class="btn btn-dark" id="saveLead" data-i18n="Save Lead">Save Lead</button></div>
+</div></div>
+
+<div class="overlay" id="quickOverlay"><div class="sheet">
+  <div class="sheet-head"><h2 data-i18n="Quick Add">Quick Add</h2><button class="close" id="closeQuick">×</button></div>
+  <div class="field"><label data-i18n="FULL NAME *">FULL NAME *</label><input class="input" id="qName" placeholder="Client name" data-ph="Client name"></div>
+  <div class="field"><label data-i18n="PRIMARY PHONE">PRIMARY PHONE</label><input class="input" id="qPhone" inputmode="tel" placeholder="01xxxxxxxxx"></div>
+  <div class="field"><label data-i18n="PROJECT">PROJECT</label><button type="button" class="choice" id="qProjectChoice"><span class="value" id="qProjectText">Select project</span><span class="arrow">›</span></button></div>
+  <div class="field"><label data-i18n="PRIORITY">PRIORITY</label><button type="button" class="choice" id="qTempChoice"><span class="value" id="qTempText">Warm</span><span class="arrow">›</span></button></div>
+  <div class="field"><label data-i18n="FOLLOW-UP DATE">FOLLOW-UP DATE</label><input class="input" id="qDate" type="date"></div>
+  <div class="actions"><button class="btn btn-soft" id="cancelQuick" data-i18n="Cancel">Cancel</button><button class="btn btn-dark" id="saveQuick" data-i18n="Save Lead">Save Lead</button></div>
+</div></div>
+
+<div class="overlay" id="choiceOverlay"><div class="sheet">
+  <div class="sheet-head"><h2 id="choiceTitle">Choose</h2><button class="close" id="closeChoice">×</button></div>
+  <div class="choice-grid" id="choiceList"></div>
+</div></div>
+
+<div class="overlay" id="detailOverlay"><div class="sheet">
+  <div class="sheet-head"><h2 data-i18n="Lead Details">Lead Details</h2><button class="close" id="closeDetail">×</button></div>
+  <div id="detailContent"></div>
+</div></div>
+<div class="overlay" id="projectOverlay"><div class="sheet">
+  <div class="sheet-head"><h2 id="projectFormTitle">Add Project</h2><button class="close" id="closeProject">×</button></div>
+  <div class="field"><label data-i18n="PROJECT NAME">PROJECT NAME</label><input class="input" id="projectNameInput" placeholder="Project name" data-ph="Project name"></div>
+  <div class="actions"><button class="btn btn-soft" id="cancelProject" data-i18n="Cancel">Cancel</button><button class="btn btn-dark" id="saveProject" data-i18n="Save Project">Save Project</button></div>
+</div></div>
+<div class="toast" id="toast"></div>
+
+<script type="module">
+"use strict";
+const KEY="nk_facebook_fresh_ads_crm_v1";
+const SWANLAKE_SEED = [
+  {id:"fb-ahmed-ramadan",name:"Ahmed Ramadan",phone:"+201000856548",phones:["+201000856548"],project:"La Vista City",source:"Facebook",stage:"New",temp:"warm",action:"Follow-up",notes:"WhatsApp contact: ahmedramadan"},
+  {id:"fb-om-yassin",name:"ام ياسين الرلي",phone:"201145394696",phones:["201145394696"],project:"La Vista City",source:"Facebook",stage:"Lost",temp:"cold",action:"Follow-up",notes:"Original Excel status: Not Interested. Lead date: 21/11/2026",interestStatus:"not_interested"},
+  {id:"fb-mohab-abo-ismail",name:"Mohab Abo ismail",phone:"201551249204",phones:["201551249204"],project:"La Vista City",source:"Facebook",stage:"Lost",temp:"cold",action:"Follow-up",notes:"Original Excel status: Not Interested. Lead date: 21/11/2026",interestStatus:"not_interested"}
+];
+const SWANLAKE_HEADERS = {"HT":["Unit Code","Status","Total Unit Price","Name","SalesRepID","Reservationdate","ContractSigningdate","Ambassador","Project","Plot Area","Land Area","Plot #","Unit Name","Building #","Footprint Area","Unit Type","Design Area","Roof Terrace Area","Garden Area","Customer ID","System ID","Adress","City","Counrty","EOI Code","Home phone number","Phone Number","Email Address","Notes","Name Arabic","Addres Arabic","ID Number","ID Type","Nationality","Mailing Addres Arabic","ID Addres Arabic","Existing Ownership in HAP","Bookingdate","Manager","Director","Broker Arabic Name","Broker Address","Broker Arabic Address","Broker Mobile","Broker Code","Broker Percentage","Comment","Contract Delivery Date","Years","Delivery Date","Delivered","Grace Period","Unit Price","Design Type","Phase","Zone Number","% of DP","Club House Fees","% Maintinance Price","Floor","# of Parking","Parking Price","Note Unit","Total Parking Price","Client Name","Recipt Number","Villa Type B (SV-B) - (347-460)","Villa Type C (SV-C) - (299-420)","Villa Type D (SV-D) - (244 - 370)","Twin Villa - (223-270)","Townhouse - Corner - (196-270)","Townhouse - Middle -(165-150)","# Of Villa Type B","# Of Villa Type C","# OF Villa Type D","# OF Twin Villa","# OF Townhouse - Corner","# OF Townhouse - Middle","Total Number Of EOI"],"SLR":["Unit Code","Status","Total Unit Price","Client Name","SalesRepID","Reservationdate","ContractSigningdate","Ambassador","Project","Unit Name","Premium Price","Unit Price","Years","Plot #","Land Area","Plot Area","Building #","Unit Type","Design Area","Roof Terrace Area","Garden Area","Bookingdate","Booked Date","Manager","Director","Broker Arabic Name","Broker Address","Broker Arabic Address","Broker Mobile","Broker Code","Broker Percentage","Comment","Contract Delivery Date","Delivery Date","Delivered","Expr1029","Grace Period","Design Type","Phase","Zone Number","% of DP","% Maintinance Price","Floor","# of Parking","Parking Price","Note Unit","Basement Area","Basement Price/m","BUA Price/m","Land Price/m","Terrace Price/m","System ID","Adress","City","Counrty","EOI Code","Home phone number","Phone Number","Fax Number","Email Address","Notes","Name Arabic","Addres Arabic","ID Number","Expr1061","ID Type","Nationality","Mailing Addres Arabic","ID Addres Arabic","Existing Ownership in HAP","Job Title","Total Area","Final Basement Area","Basement","Recipt Number","EOI 151 - 182","EOI 196 - 254","EOI 268 - 344","EOI 275 - 328","EOI 319 - 403","EOI 406 - 418","# EOI 275 - 328","# EOI 319 - 403","# EOI 406 - 418","Total Units","Small","Medium","Large","SV-M","SV-N","TL","1 Bedrom","2 Bedrooms","3 Bedrooms","Penthouse","OK 1 Bedrom","OK 2 Bedrooms","OK 3 Bedrooms","OK Penthouse","Garden Price/m","Garden Terrace price/m","Total Garden Area","Garden Terrace Area","# OF RIGHT OF USAGE PARKING","RIGHT OF USAGE PARKING PRICE/m"],"SLW":["Unit Code","Status","Total Unit Price","Client Name","SalesRepID","Bookingdate","Reservationdate","ContractSigningdate","Ambassador","Manager","Director","Project","Plot #","Plot Area","Land Area","Building #","Unit Type","Design Area","Unit Name","Roof Terrace Area","Garden Area","Customer ID","Broker Arabic Name","Broker Address","Broker Arabic Address","Broker Mobile","Broker Code","Broker Percentage","Comment","Contract Delivery Date","Delivery Date","Delivered","Grace Period","Design Type","Phase","Zone Number","% of DP","% Maintinance Price","Floor","# of Parking","Parking Price","Note Unit","Recipt Number","Basement Area","Basement Price/m","Booked Date","BUA Price/m","Land Price/m","Terrace Price/m","Garden Price/m","Basement","Premium Price","FINISHING PRICE/METER","Total Area","Final Basement Area","Years","Unit Price","Adress","City","EOI Code","Home phone number","Phone Number","Fax Number","Email Address","Notes","Name Arabic","Addres Arabic","ID Number","ID Type","Mailing Addres Arabic","ID Addres Arabic","Existing Ownership in HAP","Job Title","System ID","Counrty","Apt 3 Bed (200 sqm)","Apt 4 Bed (256 sqm)","# of Apt 3 Bed (200 sqm)","# of Apt 4 Bed (256 sqm)","Total Number Of EOI"],"VAL":["Unit Code","Unit Name","Plot #","Plot Area","Land Area","Building #","Footprint Area","Unit Type","Design Area","Roof Terrace Area","Garden Area","Status","Bookingdate","Reservationdate","ContractSigningdate","SalesRepID","Manager","Director","Ambassador","Broker Arabic Name","Broker Address","Broker Arabic Address","Broker Mobile","Broker Percentage","Broker Code","Comment","Contract Delivery Date","Years","Delivery Date","Delivered","Grace Period","Unit Price","Design Type","Phase","Zone Number","% of DP","Club House Fees","% Maintinance Price","Floor","# of Parking","Parking Price","Note Unit","Client Name","Adress","City","Counrty","EOI Code","Home phone number","Phone Number","Fax Number","Email Address","Notes","Name Arabic","Expr1053","Addres Arabic","ID Number","ID Type","Nationality","Mailing Addres Arabic","ID Addres Arabic","Total Parking Price","Total Unit Price","System ID","Recipt Number","Project"]};
+const SOURCE_HEADERS = {"SilverSands.xlsx|Silversands":["Name","Mobile","","","","","","","","","","","","","","","","","",""],"all august leads(1).xlsx|Worksheet":["Date","Name","Mobile","whatsapp","Work Phone","Project","Date","Status"],"IL Cazar Total Handedover units.xlsx|Creek Town":["Project","Zone","Building","Type Of Unit","Unit NO","Updated Unit Status","Client Name","Contact Number","Unit Type","HO Status","HO Date","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],"IL Cazar Total Handedover units.xlsx|GO Holiopolis":["#","Tower","Column1","UniTowerNumber","Unit Type","Released","Unit Status","HO Status","Client Name","Handover Date"],"IL Cazar Total Handedover units.xlsx|Stoda":["#","Project","unit type","Building","Unit Status","Client name","Asset Name","contact number","Delivery Period","status","HO Date"],"No Answer Leads From (1jan to 15sep )(2).xlsx|CRM Leads Export":["Name","Phone","Project"]};
+function load(){return SWANLAKE_SEED.map(normalize)}
+// Initialize all CRM state before rendering.
+let leads=load(), editingId=null, followMode="all", lang=localStorage.getItem("crm_lang")||"en";
+let currentChoice={target:null,title:"",options:[],value:""};
+const campaignSelectedIds=new Set();
+let campaignOpenedIds=new Set();
+const defaultProjects=["La Vista City"];
+let projectStore=loadProjects();
+const categories=["Residential","Coastal","Commercial","Medical","Administrative","Land","Hospitality","Industrial","Warehouse","Mixed Use","Other"];
+const interests={Residential:["Apartment","Duplex","I-Villa","Town House","Twin House","Standalone Villa","Penthouse","Studio","Other"],Coastal:["Chalet","Twin House","Town House","Villa","Cabin","Studio","Other"],Commercial:["Shop","Retail","Office","Showroom","Mall Unit","Other"],Medical:["Clinic","Medical Office","Medical Center","Other"],Administrative:["Office","Administrative Unit","Corporate Office","Other"],Land:["Residential Land","Commercial Land","Industrial Land","Agricultural Land","Other"],Hospitality:["Serviced Apartment","Hotel Unit","Chalet","Other"],Industrial:["Factory","Industrial Unit","Other"],Warehouse:["Warehouse","Storage Unit","Other"],"Mixed Use":["Apartment","Office","Shop","Clinic","Other"],Other:["Other"]};
+const bedroomOptions=["1 Bedroom","2 Bedrooms","3 Bedrooms","4 Bedrooms","5 Bedrooms","5+ Bedrooms"];
+const residentialFeatures=["Private Pool","Garden View","Park View","Street View","Corner Unit","Garden","Roof","Maid's Room","Nanny's Room","Driver's Room","Storage","Parking"];
+const businessFeatures=["Main Road View","Street View","Corner Unit","Ground Floor","High Floor","Parking","Open Space","Reception","Storage"];
+function unitDetailOptions(category){const c=category||"Residential";if(["Residential","Coastal","Hospitality","Mixed Use"].includes(c))return{bedrooms:bedroomOptions,features:residentialFeatures};if(["Commercial","Medical","Administrative","Industrial","Warehouse"].includes(c))return{bedrooms:[],features:businessFeatures};return{bedrooms:[],features:residentialFeatures}}
+function parseUnitDetails(value=""){const parts=String(value||"").split("|").map(x=>x.trim()).filter(Boolean);return{bedrooms:parts.filter(x=>bedroomOptions.includes(x))[0]||"",features:parts.filter(x=>!bedroomOptions.includes(x))}}
+function unitDisplay(value=""){const parts=String(value||"").split("|").map(x=>x.trim()).filter(Boolean);return parts.length?parts.map(x=>label(x)).join(" • "):""}
+const sources=["Facebook","Instagram","WhatsApp","Referral","Website","Call","Walk-in","TikTok","Google","Other"];
+const priorities=["Hot","Warm","Cold"];
+const stages=["New","Contacted","Viewing","Negotiation","Won","Lost"];
+const actions=["Call Client","Send Details","Send Price List","Send Location","Arrange Viewing","Send Offer","Follow-up","Other"];
+let persistentDB=null;
+function openPersistentDB(){
+  return new Promise((resolve,reject)=>{
+    if(!window.indexedDB){reject(new Error("IndexedDB unavailable"));return}
+    const request=indexedDB.open("nk_facebook_fresh_ads_multi_project_crm_v1",1);
+    request.onupgradeneeded=()=>{if(!request.result.objectStoreNames.contains("app"))request.result.createObjectStore("app")};
+    request.onsuccess=()=>resolve(request.result);
+    request.onerror=()=>reject(request.error||new Error("Database open failed"));
+  });
+}
+function idbRead(key){
+  return new Promise((resolve,reject)=>{
+    const tx=persistentDB.transaction("app","readonly");
+    const req=tx.objectStore("app").get(key);
+    req.onsuccess=()=>resolve(req.result);
+    req.onerror=()=>reject(req.error||new Error("Database read failed"));
+  });
+}
+function idbWrite(key,value){
+  return new Promise((resolve,reject)=>{
+    const tx=persistentDB.transaction("app","readwrite");
+    tx.objectStore("app").put(value,key);
+    tx.oncomplete=()=>resolve();
+    tx.onerror=()=>reject(tx.error||new Error("Database write failed"));
+    tx.onabort=()=>reject(tx.error||new Error("Database write aborted"));
+  });
+}
+async function initPersistentDB(){
+  persistentDB=await openPersistentDB();
+  const saved=await idbRead("facebook_fresh_ads_leads");
+  if(Array.isArray(saved)&&saved.length){
+    leads=saved.map(normalize);
+    // Restore any campaign seed contacts missing from an incomplete local database.
+    const seed=load();
+    const known=new Set(leads.map(x=>String(x.id)));
+    const missing=seed.filter(x=>!known.has(String(x.id)));
+    if(missing.length){leads=leads.concat(missing);await idbWrite("facebook_fresh_ads_leads",leads);}
+  }else{
+    leads=load();
+    await idbWrite("facebook_fresh_ads_leads",leads);
+  }
+}
+function persist(){
+  if(persistentDB){idbWrite("facebook_fresh_ads_leads",leads).catch(()=>toast("تعذر حفظ التغييرات؛ صدّر نسخة احتياطية"))}
+  else{try{localStorage.setItem(KEY,JSON.stringify(leads))}catch(e){toast("الحفظ الدائم غير متاح هنا؛ صدّر نسخة احتياطية")}}
+}
+function loadProjects(){
+  try{
+    const saved=JSON.parse(localStorage.getItem("nk_facebook_fresh_ads_projects_v1")||"null");
+    if(Array.isArray(saved)&&saved.length){
+      const migrated=saved.map(p=>({name:p.name,status:p.status||(p.active===false?"sold_out":"active")}));
+      localStorage.setItem("nk_facebook_fresh_ads_projects_v1",JSON.stringify(migrated));
+      return migrated;
+    }
+  }catch(e){}
+  const initial=defaultProjects.map(name=>({name,status:"active"}));
+  localStorage.setItem("nk_facebook_fresh_ads_projects_v1",JSON.stringify(initial));
+  return initial;
+}
+function persistProjects(){localStorage.setItem("nk_facebook_fresh_ads_projects_v1",JSON.stringify(projectStore))}
+function projectIsAvailable(p){return p.status==="active"||p.status==="limited"}
+function activeProjectNames(){return projectStore.filter(projectIsAvailable).map(p=>p.name)}
+function allProjectNames(){return projectStore.map(p=>p.name)}
+function projectStatusLabel(status){return status==="limited"?"Limited Availability":status==="sold_out"?"Sold Out":"Active"}
+function today(){return new Date().toISOString().slice(0,10)}
+function esc(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}
+function cls(v){return String(v||"").toLowerCase().replace(/\s+/g,"-")}
+function money(v){let n=Number(String(v||"").replace(/[^0-9.]/g,""));return Number.isFinite(n)&&n?new Intl.NumberFormat("en-EG").format(n):"0"}
+function toast(msg){const el=document.getElementById("toast");el.textContent=t(msg);el.classList.add("show");clearTimeout(window.__toast);window.__toast=setTimeout(()=>el.classList.remove("show"),1800)}
+function empty(title,sub){return`<div class="empty"><strong>${esc(t(title))}</strong><div>${esc(t(sub||""))}</div></div>`}
+function badge(type,text){const raw=text||type;const map={hot:"Hot",warm:"Warm",cold:"Cold",new:"New",contacted:"Contacted",viewing:"Viewing",negotiation:"Negotiation",won:"Won",lost:"Lost",overdue:"Overdue"};return`<span class="badge ${cls(type)}">${esc(t(map[raw]||raw))}</span>`}
+function phoneArray(l){return Array.isArray(l?.phones)&&l.phones.length?l.phones.filter(Boolean):[l?.phone].filter(Boolean)}
+function normalize(l){
+  const x={...l};
+  x.phones=phoneArray(x);x.phone=x.phone||x.phones[0]||"";
+  x.stage=x.stage||"New";x.temp=x.temp||"warm";x.action=x.action||"Follow-up";x.source=x.source||"Facebook";x.currency=x.currency||"EGP";
+  x.category=x.category||inferCategory(x.unit,x.project);x.interest=x.interest||x.unit||"";x.purchaseValue=x.purchaseValue||"";
+  x.deals=Array.isArray(x.deals)?x.deals:[];
+  if(!x.deals.length && x.stage==="Won") x.deals.push({id:"legacy-"+x.id,project:x.project||"",value:x.purchaseValue||x.budget||"",currency:x.currency||"EGP",stage:"Won",date:x.wonDate||today(),unit:x.unit||x.interest||""});
+  x.searchIndex=(x.searchIndex||[x.name,x.phone,(x.phones||[]).join(" "),x.project,x.category,x.interest,x.notes,x.source,x.sourceStatus,x.swanlakePurchaseStatus,x.sourceFile,x.sourceSheet,x.projectGroup,x.sourceRow,x.recordType,JSON.stringify(x.sourceData||{})].join(" ")).toLowerCase();
+  return x;
+}
+function inferCategory(unit,project){
+  const u=String(unit||"").toLowerCase(),p=String(project||"").toLowerCase();
+  if(/chalet|coastal|solana/.test(u+" "+p))return"Coastal";
+  if(/office|shop|commercial|retail/.test(u))return"Commercial";
+  if(/clinic|medical/.test(u))return"Medical";
+  return"Residential";
+}
+function label(v){
+  const special={"Mountain View":"Mountain View","Aliva":"Aliva","Solana East":"Solana East","SODIC East":"SODIC East","Nations of Sky":"Nations of Sky","Nile Boulevard":"Nile Boulevard","Nile Heights":"Nile Heights","Niche":"Niche","ORA":"ORA","SODIC":"SODIC","Other":"Other",
+  Residential:"Residential",Coastal:"Coastal",Commercial:"Commercial",Medical:"Medical",Administrative:"Administrative",Land:"Land",Hospitality:"Hospitality",Industrial:"Industrial",Warehouse:"Warehouse","Mixed Use":"Mixed Use",
+  Apartment:"Apartment",Duplex:"Duplex","I-Villa":"I-Villa","Town House":"Town House","Twin House":"Twin House","Standalone Villa":"Standalone Villa",Penthouse:"Penthouse",Studio:"Studio",Chalet:"Chalet",Villa:"Villa",Office:"Office",Shop:"Shop",Retail:"Retail",Showroom:"Showroom",Clinic:"Clinic","Medical Center":"Medical Center",Warehouse:"Warehouse",Factory:"Factory","Serviced Apartment":"Serviced Apartment","Administrative Unit":"Administrative Unit","Corporate Office":"Corporate Office","Mall Unit":"Mall Unit","Storage Unit":"Storage Unit","Residential Land":"Residential Land","Commercial Land":"Commercial Land","Industrial Land":"Industrial Land","Agricultural Land":"Agricultural Land",
+  "1 Bedroom":"1 Bedroom","2 Bedrooms":"2 Bedrooms","3 Bedrooms":"3 Bedrooms","4 Bedrooms":"4 Bedrooms","5 Bedrooms":"5 Bedrooms","5+ Bedrooms":"5+ Bedrooms","Private Pool":"Private Pool","Garden View":"Garden View","Park View":"Park View","Street View":"Street View","Main Road View":"Main Road View","Corner Unit":"Corner Unit","Garden":"Garden","Roof":"Roof","Maid's Room":"Maid's Room","Nanny's Room":"Nanny's Room","Driver's Room":"Driver's Room","Storage":"Storage","Parking":"Parking","High Floor":"High Floor","Ground Floor":"Ground Floor","Open Space":"Open Space","Reception":"Reception",
+  Hot:"Hot",Warm:"Warm",Cold:"Cold",New:"New",Contacted:"Contacted",Viewing:"Viewing",Negotiation:"Negotiation",Won:"Won",Lost:"Lost"};
+  if(["EGP","USD","AED","SAR","EUR","GBP"].includes(v))return t(v); if(v==="Other Currency")return t(v); if(v==="Custom Amount")return t(v); if(/^\d+(\.\d+)?$/.test(String(v)))return money(v); return t(special[v]||v);
+}
+function openChoice(target,title,options,value=""){
+  if(target==="unitChoice") return openUnitDetailsChoice();
+  currentChoice={target,title,options,value};
+  document.getElementById("choiceTitle").textContent=t(title);
+  const isStatus=String(target).startsWith("projectStatus:");
+  const isPriority=target==="tempChoice"||target==="qTempChoice";
+  document.getElementById("choiceList").innerHTML=options.map(o=>{
+    if(isStatus){
+      const cls=o==="Active"?"active":o==="Limited Availability"?"limited":"sold-out";
+      const selected=o===value?` status-selected ${cls}-choice`:"";
+      return `<button class="choice-item status-choice${selected}" data-choice="${esc(o)}"><span class="status-dot ${cls}"></span><span>${esc(label(o))}</span></button>`;
+    }
+    if(isPriority){
+      const cls=String(o).toLowerCase();
+      const selected=o===value?" priority-selected":"";
+      return `<button class="choice-item priority-choice ${cls}-choice${selected}" data-choice="${esc(o)}"><span class="priority-dot ${cls}"></span><span>${esc(label(o))}</span></button>`;
+    }
+    return `<button class="choice-item ${o===value?"selected":""}" data-choice="${esc(o)}">${esc(label(o))}</button>`;
+  }).join("");
+  document.getElementById("choiceOverlay").classList.add("show");
+}
+function openUnitDetailsChoice(){
+  const category=getFormVal("categoryChoice")||"Residential";
+  const interest=getFormVal("interestChoice")||"";
+  const opts=unitDetailOptions(category), parsed=parseUnitDetails(getFormVal("unitChoice"));
+  currentChoice={target:"unitChoice",title:"Choose unit details",options:[],value:getFormVal("unitChoice"),unitSelection:{bedrooms:parsed.bedrooms,features:[...parsed.features]},category,interest};
+  document.getElementById("choiceTitle").textContent=t("Choose unit details");
+  const bedroomHtml=opts.bedrooms.length?`<div style="margin-bottom:14px"><div style="font-size:12px;font-weight:900;color:#64748b;margin-bottom:8px">${esc(t("Bedrooms"))}</div><div class="choice-grid">${opts.bedrooms.map(o=>`<button type="button" class="choice-item unit-bedroom ${o===parsed.bedrooms?"selected":""}" data-unit-bedroom="${esc(o)}">${esc(label(o))}</button>`).join("")}</div></div>`:"";
+  const featureHtml=`<div><div style="font-size:12px;font-weight:900;color:#64748b;margin-bottom:8px">${esc(t("Features"))}</div><div class="choice-grid">${opts.features.map(o=>`<button type="button" class="choice-item unit-feature ${parsed.features.includes(o)?"selected":""}" data-unit-feature="${esc(o)}">${esc(label(o))}</button>`).join("")}</div></div>`;
+  document.getElementById("choiceList").innerHTML=bedroomHtml+featureHtml+`<div class="actions" style="grid-column:1/-1;margin-top:16px"><button type="button" class="btn btn-soft" id="clearUnitDetails">${esc(t("Clear"))}</button><button type="button" class="btn btn-dark" id="saveUnitDetails">${esc(t("Done"))}</button></div>`;
+  document.getElementById("choiceOverlay").classList.add("show");
+}
+function commitUnitDetails(){
+  const sel=currentChoice.unitSelection||{bedrooms:"",features:[]};
+  const parts=[sel.bedrooms,...sel.features].filter(Boolean);
+  const value=parts.join(" | ");
+  setFormVal("unitChoice",value);
+  setChoiceText("unitChoiceText",value?unitDisplay(value):"","Select unit details");
+  closeChoice();
+}
+function closeChoice(){document.getElementById("choiceOverlay").classList.remove("show");currentChoice={target:null,title:"",options:[],value:""}}
+function setChoiceText(id,val,placeholder){const el=document.getElementById(id);if(!el)return;const btn=el.parentElement;el.textContent=val?label(val):t(placeholder);btn.classList.toggle("empty-choice",!val);btn.classList.toggle("has-value",!!val);if(id==="tempChoiceText"){btn.classList.remove("priority-hot","priority-warm","priority-cold");const p=String(val||"").toLowerCase();if(["hot","warm","cold"].includes(p))btn.classList.add("priority-"+p)}}
+function syncChoiceHighlights(){["projectChoice","budgetChoice","currencyChoice","categoryChoice","interestChoice","unitChoice","sourceChoice","tempChoice","stageChoice","actionChoice"].forEach(id=>{const b=document.getElementById(id);if(b)b.classList.toggle("has-value",!!b.dataset.value)});const tbtn=document.getElementById("tempChoiceText")?.parentElement;if(tbtn){tbtn.classList.remove("priority-hot","priority-warm","priority-cold");const p=String(getFormVal("tempChoice")||"").toLowerCase();if(["hot","warm","cold"].includes(p))tbtn.classList.add("priority-"+p)}}
+function resetForm(){
+  ["fName","fPhone","fCustomBudget","fCustomProject","fNotes"].forEach(id=>document.getElementById(id).value="");
+  renderExtraPhones([]);
+  setFormVal("projectChoice","");setFormVal("budgetChoice","");setFormVal("categoryChoice","");setFormVal("interestChoice","");setFormVal("unitChoice","");setFormVal("sourceChoice","Facebook");setFormVal("tempChoice","Warm");setFormVal("stageChoice","New");setFormVal("actionChoice","Follow-up");setChoiceText("projectChoiceText","","Select project");setChoiceText("budgetChoiceText","","Choose budget");setChoiceText("categoryChoiceText","","Select category");setChoiceText("interestChoiceText","","Select interest");setChoiceText("unitChoiceText","","Select unit details");setChoiceText("sourceChoiceText","Facebook","Select source");setChoiceText("tempChoiceText","Warm","Select priority");setChoiceText("stageChoiceText","New","Choose stage");setChoiceText("actionChoiceText","Follow-up","Choose next action");
+  document.getElementById("fCustomProject").style.display="none";document.getElementById("fCustomBudget").style.display="none";setFormVal("budgetChoice","");setFormVal("currencyChoice","EGP");setChoiceText("currencyChoiceText","🇪🇬 EGP","CURRENCY");document.getElementById("fCustomInterest").value="";document.getElementById("fCustomInterest").style.display="none";document.getElementById("fDate").value=today();document.getElementById("fTime").value="10:00";syncChoiceHighlights();
+}
+function renderExtraPhones(phones=[]){document.getElementById("extraPhones").innerHTML=phones.slice(1).map(p=>`<div class="phone-row"><input class="input extra-phone" inputmode="tel" value="${esc(p)}" placeholder="01xxxxxxxxx"><button type="button" class="icon-btn remove-phone">×</button></div>`).join("")}
+function collectPhones(){const arr=[document.getElementById("fPhone").value.trim()];document.querySelectorAll(".extra-phone").forEach(x=>{if(x.value.trim())arr.push(x.value.trim())});return[...new Set(arr)]}
+function getFormVal(id){return document.getElementById(id).dataset.value||""}
+function setFormVal(id,val){document.getElementById(id).dataset.value=val||""}
+function openLead(id=null){
+  editingId=id;const l=id?leads.find(x=>x.id===id):null;resetForm();
+  document.getElementById("formTitle").textContent=t(l?"Edit Lead":"New Lead");document.getElementById("saveLead").textContent=t(l?"Save Changes":"Save Lead");
+  if(l){
+    document.getElementById("fName").value=l.name||"";const phones=phoneArray(l);document.getElementById("fPhone").value=phones[0]||"";renderExtraPhones(phones);
+    setFormVal("projectChoice",l.project||"");setChoiceText("projectChoiceText",l.project||"","Select project");if(l.project&&!allProjectNames().includes(l.project)){document.getElementById("fCustomProject").style.display="block";document.getElementById("fCustomProject").value=l.project}
+    setFormVal("categoryChoice",l.category||"");setChoiceText("categoryChoiceText",l.category||"","Select category");
+    setFormVal("interestChoice",l.interest||"");setChoiceText("interestChoiceText",l.interest||"","Select interest");if(l.interest && !((interests[l.category]||[]).includes(l.interest))){setFormVal("interestChoice","Other");setChoiceText("interestChoiceText","Other","Select interest");document.getElementById("fCustomInterest").style.display="block";document.getElementById("fCustomInterest").value=l.interest}
+    setFormVal("unitChoice",l.unit||"");setChoiceText("unitChoiceText",l.unit?unitDisplay(l.unit):"","Select unit details");
+    setFormVal("sourceChoice",l.source||"Facebook");setChoiceText("sourceChoiceText",l.source||"Facebook","Select source");
+    setFormVal("tempChoice",l.temp||"Warm");setChoiceText("tempChoiceText",cap(l.temp||"Warm"),"Choose priority");
+    setFormVal("stageChoice",l.stage||"New");setChoiceText("stageChoiceText",l.stage||"New","Choose stage");
+    setFormVal("actionChoice",l.action||"Follow-up");setChoiceText("actionChoiceText",l.action||"Follow-up","Choose next action");
+    const budget=l.budget||"";const budgetOptions=["3000000","5000000","7500000","10000000","15000000","20000000","30000000","50000000"];if(budgetOptions.includes(String(budget))){setFormVal("budgetChoice",String(budget));setChoiceText("budgetChoiceText",String(budget),"Choose budget");}else if(budget){setFormVal("budgetChoice","Custom Amount");setChoiceText("budgetChoiceText","Custom Amount","Choose budget");document.getElementById("fCustomBudget").style.display="block";document.getElementById("fCustomBudget").value=budget;}setFormVal("currencyChoice",l.currency||"EGP");setChoiceText("currencyChoiceText",l.currency||"EGP","CURRENCY");document.getElementById("fDate").value=l.date||today();document.getElementById("fTime").value=l.time||"10:00";document.getElementById("fNotes").value=l.notes||"";
+  }
+  document.getElementById("leadOverlay").classList.add("show");
+}
+function cap(v){return v?String(v).charAt(0).toUpperCase()+String(v).slice(1):v}
+function closeLead(){document.getElementById("leadOverlay").classList.remove("show");editingId=null}
+function saveLead(){
+  const name=document.getElementById("fName").value.trim();if(!name){toast("Please enter the client name");document.getElementById("fName").focus();return}
+  const phones=collectPhones(),projectChoice=getFormVal("projectChoice"),project=projectChoice==="Other"?document.getElementById("fCustomProject").value.trim():projectChoice;
+  const budgetChoice=getFormVal("budgetChoice"),budget=budgetChoice==="Custom Amount"?document.getElementById("fCustomBudget").value.trim():budgetChoice;const currency=getFormVal("currencyChoice")||"EGP";const category=getFormVal("categoryChoice"),interestChoice=getFormVal("interestChoice"),interest=interestChoice==="Other"?document.getElementById("fCustomInterest").value.trim():interestChoice,unit=getFormVal("unitChoice"),source=getFormVal("sourceChoice")||"Facebook",temp=(getFormVal("tempChoice")||"Warm").toLowerCase(),stage=getFormVal("stageChoice")||"New",action=getFormVal("actionChoice")||"Follow-up";
+  const existing=editingId?leads.find(x=>x.id===editingId):null;
+  const data={name,phone:phones[0]||"",phones,project,budget,currency,category,interest,unit,source,temp,stage,action,date:document.getElementById("fDate").value,time:document.getElementById("fTime").value,notes:document.getElementById("fNotes").value.trim()};
+  if(data.stage==="Won"){data.wonDate=existing?.wonDate||today();data.purchaseValue=existing?.purchaseValue||budget||"";}else{data.wonDate=existing?.wonDate||"";data.purchaseValue=existing?.purchaseValue||"";}
+  if(editingId){const i=leads.findIndex(x=>x.id===editingId);if(i>=0)leads[i]=normalize({...leads[i],...data});toast("Lead updated")}else{leads.unshift(normalize({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),...data,created:new Date().toISOString()}));toast("Lead added successfully")}
+  persist();closeLead();renderAll()
+}
+function propertyIcon(l){
+  const category=String(l.category||inferCategory(l.unit,l.project)||"Residential").toLowerCase();
+  const interest=String(l.interest||"").toLowerCase();
+  let icon="🏠";
+  if(/apartment|duplex|penthouse|studio|serviced apartment|unit/.test(interest)) icon="🏢";
+  else if(/villa|town house|twin house|i-villa/.test(interest)) icon="🏡";
+  else if(/chalet|cabin/.test(interest)||category==="coastal") icon="🏖️";
+  else if(/shop|retail|showroom|mall/.test(interest)||category==="commercial") icon="🏬";
+  else if(/office|administrative/.test(interest)||category==="administrative") icon="🏢";
+  else if(/clinic|medical/.test(interest)||category==="medical") icon="🏥";
+  else if(/land/.test(interest)||category==="land") icon="🌳";
+  else if(/warehouse/.test(interest)||category==="warehouse") icon="🏭";
+  else if(/factory|industrial/.test(interest)||category==="industrial") icon="🏭";
+  else if(/hotel|hospitality/.test(interest)||category==="hospitality") icon="🏨";
+  return `<span class="property-icon ${esc(category)}" aria-hidden="true">${icon}</span>`;
+}
+function itemIndexTag(n){return `<span class="item-index" aria-label="${lang==="ar"?"رقم":"Number"} ${n}">${n}</span>`}
+function leadRow(l,showBudget=true,listNumber=null){
+  const phones=phoneArray(l),overdue=l.date&&l.date<today()&&!['Won','Lost'].includes(l.stage);
+  const priority=String(l.temp||'cold').toLowerCase();
+  const interest=label(l.interest||'');
+  const unit=unitDisplay(l.unit||'');
+  const project=l.project||t('No project');
+  const interestLine=[interest,unit].filter(Boolean).join(' • ');
+  const priorityLabel=t(priority==='hot'?'Hot':priority==='warm'?'Warm':'Cold');
+  const waPhone=phones.find(p=>normalizeWhatsApp(p))||"";const wa=waPhone?normalizeWhatsApp(waPhone):"";
+  const purchaseBadge=l.swanlakePurchaseStatus?badge(l.swanlakePurchaseStatus==="Purchased"?"won":"cold",l.swanlakePurchaseStatus):"";
+  const interestStatus=String(l.interestStatus||'').toLowerCase();
+  return`<div class="lead-row priority-${esc(priority)}"><div class="lead-main"><div class="lead-name priority-name-${esc(priority)}">${listNumber!==null?itemIndexTag(listNumber):""}${propertyIcon(l)}<span>${esc(l.name)}</span></div><div class="lead-project">${esc(project)}</div>${interestLine?`<div class="lead-interest">${esc(interestLine)}</div>`:''}<div class="lead-contact">${l.category?esc(label(l.category))+" • ":""}${phones[0]?esc(phones[0]):''}${phones.length>1?` • +${phones.length-1} ${lang==="ar"?"أرقام إضافية":"more numbers"}`:""}</div>${showBudget&&l.budget?`<div class="lead-budget">${esc(t('Budget'))}: ${esc(money(l.budget))} ${esc(currencyLabel(l.currency||'EGP'))}</div>`:''}${(l.deals||[]).length?`<div class="lead-contact">${esc(lang==='ar'?'عدد الصفقات':'Deals')}: ${(l.deals||[]).length}</div>`:''}<div class="lead-badges"><span class="lead-badge ${esc(priority)}">${esc(priorityLabel)}</span>${badge(l.stage)}${purchaseBadge}${overdue?badge('overdue','Overdue'):''}</div><div class="lead-quick-tools"><div class="lead-priority-tools"><button type="button" data-lead-priority="hot" data-lead-id="${esc(l.id)}" class="${priority==='hot'?'active':''}">🔴 Hot</button><button type="button" data-lead-priority="warm" data-lead-id="${esc(l.id)}" class="${priority==='warm'?'active':''}">🟡 Warm</button><button type="button" data-lead-priority="cold" data-lead-id="${esc(l.id)}" class="${priority==='cold'?'active':''}">⚪ Cold</button></div><div class="lead-interest-tools"><button type="button" data-lead-interest="interested" data-lead-id="${esc(l.id)}" class="interest-interested ${interestStatus==='interested'?'active':''}"><span aria-hidden="true">✓</span> مهتم</button><button type="button" data-lead-interest="not_interested" data-lead-id="${esc(l.id)}" class="interest-not-interested ${interestStatus==='not_interested'?'active':''}"><span aria-hidden="true">×</span> غير مهتم</button><button type="button" data-lead-interest="follow_up" data-lead-id="${esc(l.id)}" class="interest-follow-up ${interestStatus==='follow_up'?'active':''}"><span aria-hidden="true">▣</span> متابعة</button></div><div class="lead-action-status-tools"><button type="button" data-lead-call="${esc(l.id)}" class="${l.callCompleted?'active':''}">${l.callCompleted?'✓ تم الاتصال':'تم الاتصال'}</button><button type="button" data-lead-wa="${esc(l.id)}" class="${l.whatsappSent?'active':''}">${l.whatsappSent?'✓ تم إرسال واتساب':'تم إرسال واتساب'}</button></div></div></div><div class="lead-actions">${phones[0]?`<a class="icon-btn call-icon" href="tel:${esc(phones[0])}" title="${esc(t('Call'))}">☎</a>`:''}${wa?`<a class="icon-btn wa-icon" href="https://wa.me/${wa}?text=${encodeURIComponent(waMessage(l))}" target="_blank" rel="noopener" title="${esc(t('WhatsApp'))}">◉</a>`:''}<button class="icon-btn view-icon" data-view="${esc(l.id)}" title="${esc(t('View'))}">›</button></div></div>`
+}
+function waMessage(l){const project=String(l.project||"المشروعات العقارية المتاحة").trim();return `أهلًا ${l.name||"بحضرتك"}، مع حضرتك عمر من NK Real Estate. حابب أشارك مع حضرتك تفاصيل ${project}. هل يناسب حضرتك أبعث التفاصيل؟`; }
+function normalizeWhatsApp(phone){
+  const raw=String(phone||"").trim();
+  let n=raw.replace(/\D/g,"");
+  if(/^01[0125]\d{8}$/.test(n)) return "20"+n.slice(1);
+  if(/^20(10|11|12|15)\d{8}$/.test(n)) return n;
+  if(raw.startsWith("+")||raw.startsWith("00")){
+    if(n.startsWith("00")) n=n.slice(2);
+    return /^[1-9]\d{7,14}$/.test(n)?n:"";
+  }
+  return "";
+}
+function currencyLabel(code){return t(code||"EGP")}
+function groupedSales(won){const out={};won.forEach(x=>{const c=x.currency||"EGP";const n=Number(String(x.budget||"").replace(/[^0-9.]/g,""))||0;out[c]=(out[c]||0)+n});return Object.entries(out)}
+function salesHtml(won){const rows=groupedSales(won);return rows.length?rows.map(([c,n])=>`<div class="sales-line"><span>${esc(currencyLabel(c))}</span><strong>${money(n)}</strong></div>`).join(""):"<div class=\"sales-empty\">—</div>"}
+let dashboardGroup=null;let activeProjectGroup=null;
+const sourceFolderNames={};
+function renderDashboard(){
+  const customerRecords=leads.filter(l=>!l.missingName&&l.recordType!=="Unit record without client name");
+  const unnamedRecords=leads.length-customerRecords.length;
+  const projectNames=[...new Set(leads.map(l=>l.project||"بدون مشروع"))];
+  document.getElementById("allRecordsCount").textContent=leads.length.toLocaleString();
+  document.getElementById("namedRecordsCount").textContent=customerRecords.length.toLocaleString();
+  document.getElementById("unnamedRecordsCount").textContent=unnamedRecords.toLocaleString();
+  document.getElementById("allProjectsCount").textContent=projectNames.length.toLocaleString();
+  const box=document.getElementById("dashboardProjects");
+  const countFor=(arr,p)=>arr.filter(l=>(l.project||"بدون مشروع")===p).length;
+  if(dashboardGroup==="Swanlake 2024"){
+    const arr=leads.filter(l=>l.sourceFile==="Swanlake 2024.xlsx");
+    const names=[...new Set(arr.map(l=>l.project||"بدون مشروع"))].sort((a,b)=>a.localeCompare(b));
+    box.innerHTML=`<button class="btn btn-soft dashboard-back" id="dashboardBack">‹ رجوع لكل المشروعات</button><div class="source-group-note">Swanlake 2024 • ${arr.length.toLocaleString()} سجل وحدة وعميل</div>`+names.map((p,i)=>`<button class="project-card numbered-project-card" data-dashboard-project="${esc(p)}">${itemIndexTag(i+1)}<strong>${esc(p)}</strong><span class="project-count">${countFor(arr,p).toLocaleString()}</span><small>سجل • اضغط لعرض العملاء والوحدات</small></button>`).join("");
+    return;
+  }
+  const swan=leads.filter(l=>l.sourceFile==="Swanlake 2024.xlsx");
+  const swanCard=swan.length?`<button class="project-card source-folder-card numbered-project-card" data-dashboard-group="Swanlake 2024">${itemIndexTag(1)}<strong>▣ Swanlake 2024 — List View</strong><span class="project-count">${[...new Set(swan.map(l=>l.project))].length.toLocaleString()} مشروع فرعي</span><small>${swan.length.toLocaleString()} سجل وحدة وعميل • اضغط لعرض المشروعات الفرعية</small></button>`:"";
+  const direct=leads.filter(l=>l.sourceFile!=="Swanlake 2024.xlsx");
+  const directNames=[...new Set(direct.map(l=>l.project||"بدون مشروع"))].sort((a,b)=>a.localeCompare(b));
+  const directHtml=directNames.map((p,i)=>`<button class="project-card numbered-project-card" data-dashboard-project="${esc(p)}">${itemIndexTag(i+(swan.length?2:1))}<strong>${esc(p)}</strong><span class="project-count">${countFor(leads,p).toLocaleString()}</span><small>عميل/سجل • مجمّع من جميع المصادر • اضغط لعرض العملاء</small></button>`).join("");
+  box.innerHTML=swanCard+directHtml;
+}
+function populateProjectFilter(){
+  const el=document.getElementById("projectFilter");
+  if(!el)return;
+  const selected=el.value||"all";
+  const names=[...new Set([...leads.map(l=>l.project),...projectStore.map(p=>p.name)].filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  el.innerHTML='<option value="all">كل المشروعات</option>'+names.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join("");
+  el.value=names.includes(selected)?selected:"all";
+}
+let leadsPage=0;
+const LEADS_PAGE_SIZE=100;
+function renderLeads(){
+  const list=document.getElementById("leadList");
+  try{
+    const q=(document.getElementById("searchInput")?.value||"").trim().toLowerCase();
+    const sf=document.getElementById("stageFilter")?.value||"all";
+    const tf=document.getElementById("tempFilter")?.value||"all";
+    const pf=document.getElementById("projectFilter")?.value||"all";
+    const source=Array.isArray(leads)?leads:[];
+    const arr=source.filter(l=>
+      (!q||[l.name,l.phone,(l.phones||[]).join(" "),l.project,l.category,l.interest,l.notes].join(" ").toLowerCase().includes(q)) &&
+      (sf==="all"||l.stage===sf) &&
+      (tf==="all"||(tf==="won"?(l.stage==="Won"||(l.deals||[]).some(d=>d.stage==="Won")):String(l.temp||"").toLowerCase()===tf)) &&
+      (pf==="all"||l.project===pf) &&
+      (!activeProjectGroup||l.projectGroup===activeProjectGroup)
+    );
+    const pages=Math.max(1,Math.ceil(arr.length/LEADS_PAGE_SIZE));
+    leadsPage=Math.min(leadsPage,pages-1);
+    const pageItems=arr.slice(leadsPage*LEADS_PAGE_SIZE,(leadsPage+1)*LEADS_PAGE_SIZE);
+    if(!pageItems.length){
+      list.innerHTML=source.length
+        ? empty("No matching leads","Reset filters to show all customers.")
+        : empty("No customers loaded","The seed records could not be loaded.");
+      return;
+    }
+    // Keep the full CRM lead cards; use a simple fallback if an optional card helper fails.
+    try{
+      list.innerHTML=pageItems.map((l,i)=>leadRow(l,true,leadsPage*LEADS_PAGE_SIZE+i+1)).join("");
+    }catch(cardError){
+      console.error("Lead card rendering failed:",cardError);
+      list.innerHTML=pageItems.map((l,i)=>`<div class="lead-row"><div class="lead-main"><div class="lead-name">${i+1}. ${esc(l.name||"Unnamed")}</div><div class="lead-project">${esc(l.project||"")}</div><div class="lead-contact">${esc(l.phone||"")}</div><div class="lead-badges">${badge(l.stage||"New")} ${badge(l.temp||"warm")}</div><button class="btn btn-soft" data-open-lead="${esc(l.id)}">Open details</button></div></div>`).join("");
+    }
+    if(arr.length>LEADS_PAGE_SIZE){
+      list.innerHTML+=`<div class="tools" style="justify-content:space-between;padding:12px 4px"><span class="small">${leadsPage*LEADS_PAGE_SIZE+1}–${Math.min((leadsPage+1)*LEADS_PAGE_SIZE,arr.length)} / ${arr.length}</span><button class="mini-btn" data-leads-page="${Math.min(pages-1,leadsPage+1)}">Next</button></div>`;
+    }
+  }catch(err){
+    console.error("Leads page failed:",err);
+    list.innerHTML=`<div class="empty"><strong>تعذر عرض العملاء</strong><div>أعد تحميل الصفحة. إذا استمرت المشكلة، صدّر نسخة احتياطية وأرسل صورة الخطأ.</div></div>`;
+  }
+}
+function renderFollowups(){
+  const t0=today();let arr=leads.filter(l=>l.date&&!["Won","Lost"].includes(l.stage));if(followMode==="today")arr=arr.filter(l=>l.date===t0);if(followMode==="overdue")arr=arr.filter(l=>l.date<t0);if(followMode==="upcoming")arr=arr.filter(l=>l.date>t0);arr.sort((a,b)=>(a.date+" "+(a.time||"")).localeCompare(b.date+" "+(b.time||"")));document.getElementById("followList").innerHTML=arr.length?arr.map((l,i)=>leadRow(l,true,i+1)).join(""):empty("No follow-ups","Add a follow-up date to your leads.")
+}
+function renderDeals(){
+  const won=leads.filter(x=>x.stage==="Won"),lost=leads.filter(x=>x.stage==="Lost");document.getElementById("dealWon").textContent=won.length;document.getElementById("dealLost").textContent=lost.length;document.getElementById("dealValue").innerHTML=salesHtml(won);document.getElementById("dealList").innerHTML=(won.length?won:lost).length?[...won,...lost].map((l,i)=>leadRow(l,true,i+1)).join(""):empty("No closed deals yet","Move a lead to the Won stage to see it here.")
+}
+function renderPipeline(){
+  const stages=["New","Contacted","Viewing","Negotiation","Won","Lost"];
+  document.getElementById("pipelineList").innerHTML=stages.map(stage=>{
+    const arr=leads.filter(x=>x.stage===stage);
+    return `<details class="pipeline-stage" style="margin-top:0;padding:10px 0;border-bottom:1px solid var(--line)">
+      <summary class="pipeline-stage-summary"><span class="pipeline-stage-title">${esc(label(stage))}<span class="pipeline-stage-count">${arr.length}</span></span><span class="pipeline-stage-badge">${badge(stage,stage)}</span></summary>
+      <div class="pipeline-stage-items">${arr.length?arr.slice(0,60).map((l,i)=>leadRow(l,true,i+1)).join("")+(arr.length>60?`<div class="small" style="padding:10px">${lang==="ar"?"يتم عرض أول 60 فقط. استخدم صفحة العملاء للبحث والتصفح.":"Showing first 60. Use the Leads page to search and browse all records."}</div>`:""):empty("No leads","Move a lead into this stage.")}</div>
+    </details>`;
+  }).join("");
+}
+function renderBuyers(){
+  const buyers=leads.filter(x=>x.stage==="Won").sort((a,b)=>(b.wonDate||"").localeCompare(a.wonDate||""));
+  document.getElementById("buyerCount").textContent=buyers.length;
+  document.getElementById("buyerValue").innerHTML=salesHtml(buyers);
+  document.getElementById("buyerList").innerHTML=buyers.length?buyers.map(l=>{
+    const unit=unitDisplay(l.unit)||t("Not added");
+    const value=l.purchaseValue||l.budget||t("Not added");
+    const numericValue=Number(String(value).replace(/[^0-9.]/g,""));
+    const displayValue=Number.isFinite(numericValue)&&numericValue>0?money(numericValue):value;
+    return `<div class="project numbered-project-card" style="align-items:flex-start">
+      ${itemIndexTag(buyers.indexOf(l)+1)}
+      <div style="min-width:0;flex:1"><h3>${esc(l.name)}</h3><p>${esc(l.project||t("No project"))} • ${esc(l.wonDate||t("Not scheduled"))}</p><div class="buyer-value-line"><span class="buyer-value-amount">${esc(displayValue)}</span><span class="buyer-value-currency">${esc(currencyLabel(l.currency||"EGP"))}</span></div><p style="margin-top:5px"><strong>${esc(unit)}</strong></p></div>
+      <div class="tools" style="justify-content:flex-end"><button class="mini-btn" data-view="${esc(l.id)}">${esc(t("View"))}</button></div>
+    </div>`;
+  }).join(""):empty("No buyers yet","Move a lead to the Won stage to see it here.");
+}
+
+function renderCommission(){const won=leads.filter(x=>x.stage==="Won");document.getElementById("commissionDeals").innerHTML=won.length?won.map((l,i)=>leadRow(l,true,i+1)).join(""):empty("No closed deals yet","Move a lead to the Won stage to see it here.")}
+function renderProjects(){
+  const counts={};
+  leads.forEach(l=>{if(l.project)counts[l.project]=(counts[l.project]||0)+1});
+  const rank={active:0,limited:1,sold_out:2};
+  const activeCount=projectStore.filter(p=>p.status==="active").length;
+  const limitedCount=projectStore.filter(p=>p.status==="limited").length;
+  const soldOutCount=projectStore.filter(p=>p.status==="sold_out").length;
+  const totalCount=projectStore.length;
+  const heading=document.querySelector('#page-projects .section-head h2');
+  if(heading) heading.textContent=`${t("Projects")} (${totalCount})`;
+  const rows=projectStore.map((p,i)=>({p,i})).sort((a,b)=>{
+    return (rank[a.p.status]??9)-(rank[b.p.status]??9)||a.p.name.localeCompare(b.p.name);
+  }).map(({p,i},displayIndex)=>{
+    const status=projectStatusLabel(p.status);
+    const icon=status==="Active"?"🟢":status==="Limited Availability"?"🟠":"🔴";
+    return `<div class="project numbered-project-card">
+      ${itemIndexTag(displayIndex+1)}
+      <div style="min-width:0;flex:1"><h3>${esc(p.name)}</h3><p>${counts[p.name]||0} ${esc(lang==="ar"?"عميل":"leads")} • ${icon} ${esc(t(status))}</p></div>
+      <div class="tools" style="justify-content:flex-end">
+        <button class="mini-btn" data-project-edit="${i}">✏️ ${esc(t("Edit"))}</button>
+        <button class="mini-btn" data-project-status="${i}">${icon} ${esc(t("Change Status"))}</button>
+        <button class="mini-btn" data-project-delete="${i}">🗑️</button>
+      </div>
+    </div>`;
+  }).join("");
+  document.getElementById("projectList").innerHTML=`
+    <div class="tools" style="margin-bottom:12px;align-items:center">
+      <button class="btn btn-dark" id="addProjectBtn">＋ ${esc(t("Add Project"))}</button>
+    </div>
+    <div class="note project-summary" style="margin-bottom:12px;font-weight:800"><div class="project-total">${totalCount} ${esc(t("Projects"))}</div><div class="project-status-counts"><div>🟢 ${activeCount} ${esc(t("Active"))}</div><div>🟠 ${limitedCount} ${esc(t("Limited Availability"))}</div><div>🔴 ${soldOutCount} ${esc(t("Sold Out"))}</div></div></div>
+    ${rows||empty("No projects","Add your first project.")}
+    <div class="note" style="margin-top:12px">${esc(t("Sold Out projects disappear from the new-lead project choices, but existing leads stay linked to them."))}</div>`;
+}
+let editingProjectIndex=null;
+function openProjectForm(index=null){
+  editingProjectIndex=index;
+  document.getElementById("projectFormTitle").textContent=t(index===null?"Add Project":"Edit");
+  document.getElementById("saveProject").textContent=t(index===null?"Save Project":"Save Project");
+  document.getElementById("projectNameInput").value=index===null?"":projectStore[index]?.name||"";
+  document.getElementById("projectOverlay").classList.add("show");
+  setTimeout(()=>document.getElementById("projectNameInput").focus(),50);
+}
+function closeProjectForm(){document.getElementById("projectOverlay").classList.remove("show");editingProjectIndex=null}
+function saveProject(){
+  const name=document.getElementById("projectNameInput").value.trim();
+  const isNew=editingProjectIndex===null;
+  if(!name){toast("Please enter the client name");return}
+  const duplicate=projectStore.some((p,i)=>p.name.toLowerCase()===name.toLowerCase()&&i!==editingProjectIndex);
+  if(duplicate){toast("Project already exists");return}
+  if(editingProjectIndex===null)projectStore.push({name,status:"active"});
+  else{
+    const old=projectStore[editingProjectIndex]?.name;
+    projectStore[editingProjectIndex].name=name;
+    if(old&&old!==name)leads.forEach(l=>{if(l.project===old)l.project=name});
+    persist();
+  }
+  persistProjects();closeProjectForm();renderAll();toast(isNew?"Project added":"Project updated");
+}
+function openProjectStatusChoice(index){
+  const p=projectStore[index];if(!p)return;
+  currentChoice.target="projectStatus:"+index;
+  openChoice("projectStatus:"+index,"Change Status",["Active","Limited Availability","Sold Out"],projectStatusLabel(p.status));
+}
+function cycleProjectStatus(index){
+  const p=projectStore[index];if(!p)return;
+  const order=["active","limited","sold_out"];
+  const current=order.indexOf(p.status);
+  p.status=order[(current+1)%order.length];
+  persistProjects();renderAll();toast(projectStatusLabel(p.status));
+}
+function deleteProject(index){
+  const p=projectStore[index];if(!p)return;
+  if(leads.some(l=>l.project===p.name)){toast("Project has linked leads; set it Sold Out instead");return}
+  if(!confirm(lang==="ar"?"حذف المشروع نهائيًا؟":"Delete this project permanently?"))return;
+  projectStore.splice(index,1);persistProjects();renderAll();toast("Project deleted");
+}
+
+let unnamedPage=0;const UNNAMED_PAGE_SIZE=50;
+function unnamedRows(){return leads.filter(l=>l.missingName||l.recordType==="Unit record without client name");}
+function renderUnnamedRecords(){
+ const q=(document.getElementById("unnamedSearch")?.value||"").trim().toLowerCase();
+ const all=unnamedRows();const arr=all.filter(l=>!q||[l.project,l.unit,l.sourceFile,l.source,l.phone,l.category,JSON.stringify(l.sourceData||{})].join(" ").toLowerCase().includes(q));
+ const pages=Math.max(1,Math.ceil(arr.length/UNNAMED_PAGE_SIZE));unnamedPage=Math.min(unnamedPage,pages-1);
+ const items=arr.slice(unnamedPage*UNNAMED_PAGE_SIZE,(unnamedPage+1)*UNNAMED_PAGE_SIZE);
+ document.getElementById("unnamedPageCount").textContent=all.length.toLocaleString();
+ document.getElementById("unnamedList").innerHTML=items.length?items.map((l,i)=>`<div class="lead-row"><div class="lead-main"><div class="lead-name">${itemIndexTag(unnamedPage*UNNAMED_PAGE_SIZE+i+1)}<span>سجل بدون اسم عميل</span></div><div class="lead-project">المشروع: ${esc(l.project||"غير محدد")}</div><div class="lead-contact">الوحدة: ${esc(unitDisplay(l.unit||"")||l.unit||"غير محددة")}</div><div class="lead-contact">المصدر: ${esc(l.sourceFile||l.source||"غير محدد")}</div>${l.phone?`<div class="lead-contact">الهاتف: ${esc(l.phone)}</div>`:""}</div></div>`).join(""):`<div class="empty">لا توجد سجلات مطابقة</div>`;
+ document.getElementById("unnamedPager").textContent=`${arr.length.toLocaleString()} سجل • صفحة ${unnamedPage+1} من ${pages}`;
+ document.getElementById("unnamedPrev").disabled=unnamedPage===0;document.getElementById("unnamedNext").disabled=unnamedPage>=pages-1;
+}
+function renderAll(){renderDashboard();populateProjectFilter();renderLeads();renderFollowups();renderDeals();renderBuyers();renderPipeline();renderCommission();renderProjects();renderCampaignPage();applyTranslations()}
+function showPage(page){if(page==="leads"){activeProjectGroup=null;leadsPage=0;const q=document.getElementById("searchInput");if(q)q.value="";const sf=document.getElementById("stageFilter");if(sf)sf.value="all";const tf=document.getElementById("tempFilter");if(tf)tf.value="all";const pf=document.getElementById("projectFilter");if(pf)pf.value="all";}document.querySelectorAll(".page").forEach(x=>x.classList.remove("active"));document.getElementById("page-"+page).classList.add("active");document.querySelectorAll(".nav button").forEach(x=>x.classList.toggle("active",x.dataset.page===page));window.scrollTo({top:0,behavior:"smooth"});renderAll()}
+function dealHistoryHtml(l){
+  const ds=Array.isArray(l.deals)?l.deals:[];
+  const all=ds.length?ds.slice().sort((a,b)=>String(a.date||"").localeCompare(String(b.date||""))).map((d,i)=>`<div style="padding:10px 0;border-bottom:1px solid var(--line)"><div style="display:flex;justify-content:space-between;gap:8px;align-items:center"><strong>Deal ${i+1}${d.stage==="Won"?" 🏆":""}</strong>${badge(d.stage||"New")}</div><div style="margin-top:5px">${esc(d.project||t("No project"))}${d.unit?" • "+esc(unitDisplay(d.unit)||d.unit):""}</div><div style="font-weight:900;margin-top:4px">${esc(d.value?money(d.value):"—")} ${esc(currencyLabel(d.currency||"EGP"))}</div><div class="tools" style="margin-top:7px"><button class="mini-btn" data-deal-stage="${esc(l.id)}|${esc(d.id)}">${lang==="ar"?"تغيير المرحلة":"Change Stage"}</button><button class="mini-btn" data-deal-delete="${esc(l.id)}|${esc(d.id)}">${lang==="ar"?"حذف الصفقة":"Delete Deal"}</button></div></div>`).join(""):empty(lang==="ar"?"لا توجد صفقات مسجلة":"No deals recorded",lang==="ar"?"أضف الصفقة الأولى لهذا العميل":"Add the first deal for this customer");
+  const totals={};ds.filter(d=>d.stage==="Won").forEach(d=>{const c=d.currency||"EGP";totals[c]=(totals[c]||0)+(Number(String(d.value||0).replace(/[^0-9.]/g,""))||0)});
+  const totalHtml=Object.keys(totals).length?`<div class="note" style="margin-top:10px"><strong>${lang==="ar"?"إجمالي الصفقات المكتملة":"Completed deals total"}</strong>${Object.entries(totals).map(([c,v])=>`<div style="font-weight:900;margin-top:4px">${esc(money(v))} ${esc(currencyLabel(c))}</div>`).join("")}</div>`:"";
+  return all+totalHtml;
+}
+function addDealToCustomer(id){
+  const l=leads.find(x=>x.id===id);if(!l)return;
+  const ar=lang==="ar";
+  const projectChoices=activeProjectNames();
+  const projectHint=projectChoices.length?projectChoices.join(" / "):"";
+  const project=prompt(ar?"اسم المشروع للصفقة (اكتب اسمًا من المشروعات المسجلة أو أضف اسمًا جديدًا):":"Project name (choose from registered projects or type a new one):",l.project||projectHint);if(project===null)return;
+  if(!project.trim()){toast(ar?"اسم المشروع مطلوب":"Project name is required");return}
+  const unit=prompt(ar?"نوع الوحدة وتفاصيلها:":"Unit type/details:",l.unit||l.interest||"");if(unit===null)return;
+  const value=prompt(ar?"سعر الوحدة / قيمة الصفقة (رقم فقط):":"Unit price / deal value (numbers only):",l.budget||"");if(value===null)return;
+  const validCurrencies=["EGP","USD","AED","SAR","EUR","GBP"];
+  if(value.trim()&&!/^\d+(?:[,.]\d+)?$/.test(value.trim().replace(/,/g,""))){toast(ar?"قيمة الصفقة غير صحيحة":"Invalid deal value");return}
+  const stage=(prompt(ar?"مرحلة الصفقة: New / Contacted / Viewing / Negotiation / Won / Lost":"Deal stage: New / Contacted / Viewing / Negotiation / Won / Lost","New")||"New").trim();
+  const normalizedStage=stages.find(x=>x.toLowerCase()===stage.toLowerCase());if(!normalizedStage){toast(ar?"مرحلة غير صحيحة":"Invalid stage");return}
+  l.deals=l.deals||[];l.deals.push({id:"deal-"+Date.now()+"-"+Math.random().toString(16).slice(2),project:project.trim(),value:value.trim().replace(/,/g,""),currency:validCurrencies.includes(currency)?currency:"EGP",stage:normalizedStage,date:today(),unit:unit.trim()});
+  if(normalizedStage==="Won"){l.wonDate=l.wonDate||today();l.purchaseValue=l.purchaseValue||value.trim().replace(/,/g,"")}
+  persist();viewLead(id);renderAll();toast(ar?"تمت إضافة الصفقة":"Deal added");
+}
+function changeDealStage(customerId,dealId){const l=leads.find(x=>x.id===customerId);const d=l?.deals?.find(x=>x.id===dealId);if(!d)return;const val=prompt(lang==="ar"?"المرحلة الجديدة: New / Contacted / Viewing / Negotiation / Won / Lost":"New stage: New / Contacted / Viewing / Negotiation / Won / Lost",d.stage||"New");if(val===null)return;const st=stages.find(x=>x.toLowerCase()===val.trim().toLowerCase());if(!st){toast(lang==="ar"?"مرحلة غير صحيحة":"Invalid stage");return}d.stage=st;if(st==="Won"){d.date=d.date||today();l.wonDate=l.wonDate||today()}persist();viewLead(customerId);renderAll()}
+function deleteDeal(customerId,dealId){const l=leads.find(x=>x.id===customerId);if(!l)return;if(!confirm(lang==="ar"?"حذف الصفقة فقط؟ سيظل العميل محفوظًا.":"Delete only this deal? The customer will remain."))return;l.deals=(l.deals||[]).filter(x=>x.id!==dealId);persist();viewLead(customerId);renderAll()}
+function sourceValueHtml(key,value){
+  if(key==="Unit Records"&&Array.isArray(value)){
+    const rows=value.map((r,i)=>{const hs=SWANLAKE_HEADERS[r.sheet]||[];const cells=(r.values||[]).map((v,j)=>v===null||v===undefined||v===""?"":`<div class="source-field"><small>${esc(hs[j]||("Column "+(j+1)))}</small><strong>${esc(v)}</strong></div>`).filter(Boolean).join("");return `<details style="margin:8px 0;border-top:1px solid var(--line);padding-top:8px"><summary>وحدة ${i+1} • ${esc(r.sheet)} • صف ${esc(r.row)}</summary><div class="source-record-grid">${cells}</div></details>`}).join("");
+    return `<div><strong>${value.length} سجل وحدة</strong>${rows}</div>`;
+  }
+  if((key==="Unit Record"||key==="Original Row")&&value&&typeof value==="object"){
+    const hs=key==="Original Row"?(value.headers||[]):(SWANLAKE_HEADERS[value.sheet]||[]);const cells=(value.values||[]).map((v,j)=>v===null||v===undefined||v===""?"":`<div class="source-field"><small>${esc(hs[j]||("Column "+(j+1)))}</small><strong>${esc(v)}</strong></div>`).filter(Boolean).join("");
+    return `<div><div class="meta">${esc(value.sheet||"")} ${value.row?"• صف "+esc(value.row):""}</div><div class="source-record-grid">${cells}</div></div>`;
+  }
+  return esc(value&&typeof value==="object"?JSON.stringify(value):value);
+}
+function viewLead(id){
+  const l=leads.find(x=>x.id===id);if(!l)return;const phones=phoneArray(l);
+  const phoneButtons=phones.map((p,i)=>{const wa=normalizeWhatsApp(p);return `<div class="phone-row"><div class="input" style="display:flex;align-items:center;background:var(--surface2)">${i===0?"★ ":""}${esc(p)}</div><a class="btn btn-soft" href="tel:${esc(p)}">${esc(t("Call"))}</a>${wa?`<a class="btn btn-soft" target="_blank" rel="noopener" href="https://wa.me/${wa}">${esc(t("WhatsApp"))}</a>`:`<span class="small" style="align-self:center">${lang==="ar"?"لا يوجد رابط واتساب مؤكد للصيغة":"WhatsApp link unavailable for this format"}</span>`}</div>`}).join("");
+  const closed=l.stage==="Won"?`<div class="note" style="background:#dcfce7;color:#166534"><strong>${esc(t("Deal Closed"))}</strong><br>${esc(t("Won Date"))}: ${esc(l.wonDate||"—")}</div>`:`<div class="choice-grid"><button class="action-btn won" data-won="${esc(l.id)}">✓ ${esc(t("Mark as Won"))}</button><button class="action-btn lost" data-lost="${esc(l.id)}">✕ ${esc(t("Mark as Lost"))}</button></div>`;
+  document.getElementById("detailContent").innerHTML=`<div class="detail-head"><div><h2>${esc(l.name)}</h2><div class="meta">${esc(l.project||t("No project"))}</div>${l.swanlakePurchaseStatus?`<div style="margin-top:8px">${badge(l.swanlakePurchaseStatus==="Purchased"?"won":"cold",l.swanlakePurchaseStatus)}</div>`:""}</div><div class="badges">${badge(l.temp)} ${badge(l.stage)}</div></div>
+  <div class="detail-section"><h3>${esc(t("Contact"))}</h3><div class="card">${phoneButtons||`<div class="meta">${esc(t("Not added"))}</div>`}</div></div>
+  <div class="detail-section"><h3>${esc(t("Sales Information"))}</h3><div class="card"><div class="meta">${esc(t("PROPERTY CATEGORY"))}</div><div style="font-weight:800;margin-top:3px">${esc(label(l.category)||t("Not added"))}</div><div class="meta" style="margin-top:10px">${esc(t("PROPERTY INTEREST"))}</div><div style="font-weight:800;margin-top:3px">${esc(label(l.interest)||t("Not added"))}</div><div class="meta" style="margin-top:10px">${esc(t("UNIT DETAILS"))}</div><div style="font-weight:800;margin-top:3px">${esc(unitDisplay(l.unit)||t("Not added"))}</div><div class="meta" style="margin-top:10px">${esc(t("Budget"))}</div><div style="font-weight:800;margin-top:3px">${esc(l.budget||t("Not added"))} ${esc(currencyLabel(l.currency||"EGP"))}</div>${l.stage==="Won"?`<div class="meta" style="margin-top:10px">${esc(t("Purchase Value"))}</div><div style="font-weight:800;margin-top:3px">${esc(l.purchaseValue||l.budget||t("Not added"))} ${esc(currencyLabel(l.currency||"EGP"))}</div>`:""}<div class="meta" style="margin-top:10px">${esc(t("LEAD SOURCE"))}</div><div style="font-weight:800;margin-top:3px">${esc(label(l.source)||t("Not added"))}</div><div class="meta" style="margin-top:10px">${esc(t("NEXT ACTION"))}</div><div style="font-weight:800;margin-top:3px">${esc(label(l.action)||t("Follow-up"))}</div><div class="meta" style="margin-top:10px">${esc(t("Follow-up"))}</div><div style="font-weight:800;margin-top:3px">${esc(l.date||t("Not scheduled"))} ${esc(l.time||"")}</div></div></div>
+  <div class="detail-section"><h3>${lang==="ar"?"سجل الصفقات":"Deal History"}</h3><div class="card"><div class="tools" style="margin-bottom:10px"><button class="btn btn-dark" data-add-deal="${esc(l.id)}">＋ ${lang==="ar"?"إضافة صفقة":"Add Deal"}</button></div>${dealHistoryHtml(l)}</div></div>
+  <div class="detail-section"><h3>${esc(t("Deal Closed"))}</h3><div class="card">${closed}</div></div>
+  <div class="detail-section"><h3>${esc(t("Notes"))}</h3><div class="note">${esc(l.notes||t("No notes yet."))}</div></div>
+  ${l.sourceData&&Object.keys(l.sourceData).length?`<div class="detail-section"><details class="card"><summary style="font-weight:800;cursor:pointer">البيانات الأصلية من الملف</summary><div style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px">${Object.entries(l.sourceData).map(([k,v])=>`<div class="source-field"><div class="meta">${esc(k)}</div><div style="font-weight:700;overflow-wrap:anywhere">${sourceValueHtml(k,v)}</div></div>`).join("")}</div><div class="meta" style="margin-top:12px">المصدر: ${esc(l.sourceFile||"")} • الصف: ${esc(l.sourceRow||"")}</div></details></div>`:""}
+  <div class="actions"><button class="btn btn-soft" data-edit="${esc(l.id)}">${esc(t("Edit Lead"))}</button><button class="btn btn-danger" data-delete="${esc(l.id)}">${esc(t("Delete"))}</button></div>`;
+  document.getElementById("detailOverlay").classList.add("show")
+}
+function closeDetail(){document.getElementById("detailOverlay").classList.remove("show")}
+function setWon(id){const l=leads.find(x=>x.id===id);if(!l)return;l.stage="Won";l.wonDate=l.wonDate||today();l.purchaseValue=l.purchaseValue||l.budget||"";persist();closeDetail();renderAll();toast("Lead marked as Won")}
+function setLost(id){const l=leads.find(x=>x.id===id);if(!l)return;l.stage="Lost";persist();closeDetail();renderAll();toast("Lead marked as Lost")}
+function downloadBlob(blob,name){const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),500)}
+function exportJson(){downloadBlob(new Blob([JSON.stringify(leads,null,2)],{type:"application/json"}),"crm-backup.json");toast("Backup exported")}
+function exportCsv(){const head=["Name","Primary Phone","Additional Phones","Project","Category","Interest","Unit Details","Budget","Currency","Lead Source","Priority","Interest Status","Call Completed","WhatsApp Sent","Stage","Next Action","Follow-up Date","Follow-up Time","Won Date","Purchase Value","Notes"];const rows=leads.map(l=>[l.name,l.phone,(l.phones||[]).slice(1).join(" | "),l.project,l.category,l.interest,l.unit,l.budget,l.currency||"EGP",l.source,l.temp,l.interestStatus||"",l.callCompleted?"Yes":"No",l.whatsappSent?"Yes":"No",l.stage,l.action,l.date,l.time,l.wonDate,l.purchaseValue||"",l.notes]);const csv=[head,...rows].map(r=>r.map(v=>`"${String(v??"").replace(/"/g,'""')}"`).join(",")).join("\n");downloadBlob(new Blob(["\ufeff",csv],{type:"text/csv;charset=utf-8"}),"crm-leads.csv");toast("Backup exported")}
+async function importJson(file){try{const data=JSON.parse(await file.text());if(!Array.isArray(data))throw Error();if(!confirm(lang==="ar"?"استيراد النسخة الاحتياطية واستبدال قائمة العملاء الحالية؟ صدّر نسخة احتياطية أولًا.":"Import backup and replace current leads? Export a backup first."))return;leads=data.map(normalize);persist();renderAll();toast("Backup imported")}catch(e){toast("Invalid backup file")}}
+function normHeader(v){return String(v??"").trim().toLowerCase().replace(/[\s_\-\/:()]+/g,"")}
+function normPhone(v){let n=String(v??"").replace(/[^0-9]/g,"");if(n.startsWith("00"))n=n.slice(2);if(n.startsWith("0"))n="20"+n.slice(1);return n}
+function firstVal(row,keys){for(const k of keys){const v=row[k];if(v!==undefined&&v!==null&&String(v).trim()!=="")return String(v).trim()}return ""}
+function mapImportRow(row){const keys=Object.keys(row);const find=(aliases)=>{const k=keys.find(x=>aliases.includes(normHeader(x)));return k?String(row[k]??"").trim():""};
+  let name=find(["name","fullname","clientname","leadname","customername","الاسم","اسم العميل","الاسم بالكامل"]);
+  let phone=find(["phone","primaryphone","mobile","mobilenumber","phonenumber","telephone","رقم الهاتف","رقم الموبايل","الموبايل","الهاتف","رقم العميل"]);
+  let project=find(["project","projectname","interestedproject","المشروع","اسم المشروع"]);
+  let budget=find(["budget","budgetegp","amount","الميزانية"]);
+  let category=find(["category","propertycategory","تصنيف العقار"]);
+  let interest=find(["interest","unit","unit type","propertyinterest","نوع الوحدة","اهتمام العميل"]);
+  let source=find(["source","leadsource","المصدر","مصدر العميل"]);
+  let notes=find(["notes","note","ملاحظات"]);
+  if(!name&&!phone&&keys.length>=2){const vals=Object.values(row);name=String(vals[0]??"").trim();phone=String(vals[1]??"").trim();project=String(vals[2]??"").trim()}
+  return {name,phone,project,budget,category,interest,source,notes};
+}
+async function loadSheetJs(){if(window.XLSX)return window.XLSX;await new Promise((resolve,reject)=>{const sc=document.createElement("script");sc.src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js";sc.onload=resolve;sc.onerror=()=>reject(Error("xlsx-lib"));document.head.appendChild(sc)});return window.XLSX}
+async function importLeadsFile(file){try{let rows=[];const ext=(file.name.split(".").pop()||"").toLowerCase();if(ext==="csv"||ext==="txt"){const txt=await file.text();rows=parseCsvRows(txt)}else{const XLSX=await loadSheetJs();const wb=XLSX.read(await file.arrayBuffer(),{type:"array"});const ws=wb.Sheets[wb.SheetNames[0]];const matrix=XLSX.utils.sheet_to_json(ws,{header:1,defval:"",raw:false});if(!matrix.length){rows=[]}else{const first=matrix[0].map(v=>String(v??"").trim());const isHeader=first.some(v=>["name","fullname","clientname","leadname","customername","phone","mobile","phonenumber","project","projectname","الاسم","اسم العميل","رقم الهاتف","رقم الموبايل","المشروع"].map(normHeader).includes(normHeader(v)));if(isHeader){const hdr=first;rows=matrix.slice(1).map(a=>Object.fromEntries(hdr.map((h,i)=>[h,a[i]??""])))}else{rows=matrix.map(a=>({__raw0:a[0]??"",__raw1:a[1]??"",__raw2:a[2]??""}))}}}
+  if(!rows.length){toast(lang==="ar"?"الملف لا يحتوي على صفوف":"No rows found");return}
+  const first=rows[0]||{};const hasHeaders=Object.keys(first).some(k=>["name","fullname","clientname","leadname","customername","الاسم","اسم العميل","phone","mobile","رقم الهاتف","رقم الموبايل","project","المشروع"].map(normHeader).includes(normHeader(k)));
+  let mapped=rows.map((r)=>{if(r.__raw0!==undefined)return{name:String(r.__raw0).trim(),phone:String(r.__raw1||"").trim(),project:String(r.__raw2||"").trim()};return mapImportRow(r)});
+  if(!hasHeaders && rows.length && Object.keys(first).length>=2 && Object.keys(first).some(k=>/^__raw/.test(k))===false){/* headerless XLSX fallback: handled below when columns are generic */
+    const generic=Object.keys(first).every(k=>/^\d+$/.test(k)||/^__EMPTY/.test(k));if(generic)mapped=rows.map(r=>{const a=Object.values(r);return{name:String(a[0]??"").trim(),phone:String(a[1]??"").trim(),project:String(a[2]??"").trim()}})
+  }
+  const seen=new Set(leads.map(l=>normPhone(phoneArray(l)[0]||l.phone)).filter(Boolean));let added=0,dupes=0,invalid=0;
+  for(const r of mapped){const name=String(r.name||"").trim(),phone=String(r.phone||"").trim();if(!name||!phone){invalid++;continue}const ph=normPhone(phone);if(!ph){invalid++;continue}if(seen.has(ph)){dupes++;continue}seen.add(ph);const project=String(r.project||"").trim();leads.unshift(normalize({id:crypto.randomUUID?crypto.randomUUID():String(Date.now())+Math.random().toString(16).slice(2),name,phone,phones:[phone],project,budget:String(r.budget||"").replace(/[, EGPجنيه]/g,""),currency:"EGP",category:r.category||inferCategory(r.interest,project),interest:r.interest||"",unit:r.interest||"",source:r.source||"Other",temp:"cold",stage:"New",action:"Follow-up",date:"",time:"",notes:r.notes||"",created:new Date().toISOString(),importedAt:new Date().toISOString()}));added++}
+  persist();renderAll();alert((lang==="ar"?"اكتمل الاستيراد\nتمت إضافة: ":"Import complete\nAdded: ")+added+(lang==="ar"?"\nمكرر تم تخطيه: ":"\nDuplicates skipped: ")+dupes+(lang==="ar"?"\nصفوف ناقصة تم تخطيها: ":"\nIncomplete rows skipped: ")+invalid);}
+  catch(e){alert(lang==="ar"?"تعذر قراءة الملف. لو ملف Excel لم يعمل، احفظه بصيغة CSV ثم جرّب مرة أخرى.":"Could not read the file. If Excel import fails, save it as CSV and try again.")}}
+function parseCsvRows(text){const lines=[];let row=[],cell="",quoted=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c==='"'&&quoted&&n==='"'){cell+='"';i++}else if(c==='"'){quoted=!quoted}else if((c===","||c===";"||c==="\t")&&!quoted){row.push(cell);cell=""}else if((c==="\n"||c==="\r")&&!quoted){if(c==="\r"&&n==="\n")i++;row.push(cell);if(row.some(v=>String(v).trim()))lines.push(row);row=[];cell=""}else cell+=c}row.push(cell);if(row.some(v=>String(v).trim()))lines.push(row);if(!lines.length)return[];const hdr=lines[0].map(v=>String(v).replace(/^\ufeff/,"").trim());const looksHeader=hdr.some(v=>["name","fullname","clientname","phone","mobile","project","الاسم","اسم العميل","رقم الهاتف","المشروع"].map(normHeader).includes(normHeader(v)));const data=looksHeader?lines.slice(1):lines;return data.map(a=>looksHeader?Object.fromEntries(hdr.map((h,i)=>[h,a[i]??""])):{__raw0:a[0]??"",__raw1:a[1]??"",__raw2:a[2]??""})}
+function deleteLead(id){if(!confirm(t("Delete this lead permanently?")))return;leads=leads.filter(x=>x.id!==id);persist();closeDetail();renderAll();toast("Lead deleted")}
+function applyTranslations(){
+  document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";
+  document.querySelectorAll("[data-i18n]").forEach(el=>{const key=el.getAttribute("data-i18n");el.textContent=t(key)});
+  document.querySelectorAll("[data-ph]").forEach(el=>el.placeholder=t(el.getAttribute("data-ph")));
+  document.getElementById("langBtn").textContent=lang==="en"?"AR":"EN";
+  document.getElementById("newLeadBtn").textContent="＋ "+t("New Lead");
+  document.getElementById("searchInput").placeholder=t("Search name, phone, project...");
+  document.getElementById("stageFilter").options[0].textContent=t("All stages");document.getElementById("tempFilter").options[0].textContent=t("All priorities");Array.from(document.getElementById("stageFilter").options).slice(1).forEach(o=>{const key=o.getAttribute("value")||o.textContent;o.value=key;o.textContent=I18N[lang]?.[key]||key});Array.from(document.getElementById("tempFilter").options).slice(1).forEach(o=>{const key=o.getAttribute("value")||o.textContent.toLowerCase();o.value=key;o.textContent=I18N[lang]?.[cap(key)]||cap(key)});syncChoiceHighlights();
+  document.getElementById("currencyChoiceText").textContent=label(getFormVal("currencyChoice")||"EGP");document.getElementById("calcCurrencyChoiceText").textContent=label(getFormVal("calcCurrencyChoice")||"EGP");document.getElementById("budgetChoiceText").textContent=getFormVal("budgetChoice")?label(getFormVal("budgetChoice")):t("Choose budget");document.getElementById("unitChoiceText").textContent=getFormVal("unitChoice")?unitDisplay(getFormVal("unitChoice")):t("Select unit details");
+}
+function toggleLang(){lang=lang==="en"?"ar":"en";localStorage.setItem("crm_lang",lang);renderAll();if(document.getElementById("leadOverlay").classList.contains("show"))openLead(editingId)}
+function openQuick(){document.getElementById("qName").value="";document.getElementById("qPhone").value="";document.getElementById("qDate").value=today();document.getElementById("qProjectChoice").dataset.value="";document.getElementById("qProjectText").textContent=t("Select project");document.getElementById("qTempChoice").dataset.value="Warm";document.getElementById("qTempText").textContent=label("Warm");document.getElementById("quickOverlay").classList.add("show")}
+function saveQuick(){const name=document.getElementById("qName").value.trim();if(!name){toast("Please enter the client name");document.getElementById("qName").focus();return}const project=document.getElementById("qProjectChoice").dataset.value||"",temp=(document.getElementById("qTempChoice").dataset.value||"Warm").toLowerCase();leads.unshift(normalize({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),name,phone:document.getElementById("qPhone").value.trim(),phones:[document.getElementById("qPhone").value.trim()].filter(Boolean),project,category:inferCategory("",project),interest:"",unit:"",source:"Facebook",temp,stage:"New",action:"Follow-up",date:document.getElementById("qDate").value,time:"10:00",notes:"",created:new Date().toISOString()}));persist();document.getElementById("quickOverlay").classList.remove("show");renderAll();toast("Lead added successfully")}
+function updateCalc(){const v=Number(String(document.getElementById("calcValue").value||"").replace(/[^0-9.]/g,""))||0,r=Number(document.getElementById("calcRate").value)||0,c=(["EGP","USD","AED","SAR","EUR","GBP"].includes(getFormVal("calcCurrencyChoice"))?getFormVal("calcCurrencyChoice"):"EGP");document.getElementById("calcResult").textContent=(lang==="ar"?"العمولة التقديرية: ":"Estimated commission: ")+new Intl.NumberFormat(lang==="ar"?"ar-EG":"en-EG").format(v*r/100)+" "+currencyLabel(c)}
+document.addEventListener("click",e=>{
+  const lp=e.target.closest("[data-leads-page]");if(lp){leadsPage=Number(lp.dataset.leadsPage)||0;renderLeads();return;}const page=e.target.closest("[data-page]");if(page){showPage(page.dataset.page);if(page.classList.contains("more-link"))document.getElementById("moreOverlay").classList.remove("show");}
+  if(e.target.closest("#newLeadBtn")||e.target.closest("#newLeadBtn2"))openLead();
+  if(e.target.closest("#addProjectBtn"))openProjectForm();
+  const pe=e.target.closest("[data-project-edit]");if(pe)openProjectForm(Number(pe.dataset.projectEdit));
+  const ps=e.target.closest("[data-project-status]");if(ps)openProjectStatusChoice(Number(ps.dataset.projectStatus));
+  const pd=e.target.closest("[data-project-delete]");if(pd)deleteProject(Number(pd.dataset.projectDelete));
+  if(e.target.closest("#quickAddBtn"))openQuick();
+  if(e.target.closest("#closeLead")||e.target.closest("#cancelLead"))closeLead();
+  if(e.target.closest("#closeQuick")||e.target.closest("#cancelQuick"))document.getElementById("quickOverlay").classList.remove("show");
+  if(e.target.closest("#saveLead"))saveLead();if(e.target.closest("#saveQuick"))saveQuick();
+  if(e.target.closest("#addPhoneBtn")){const box=document.getElementById("extraPhones"),row=document.createElement("div");row.className="phone-row";row.innerHTML='<input class="input extra-phone" inputmode="tel" placeholder="01xxxxxxxxx"><button type="button" class="icon-btn remove-phone">×</button>';box.appendChild(row);row.querySelector("input").focus()}
+  if(e.target.closest(".remove-phone"))e.target.closest(".phone-row").remove();
+  if(e.target.closest("#langBtn"))toggleLang();
+  const qp=e.target.closest("[data-lead-priority]");if(qp){const x=leads.find(z=>String(z.id)===qp.dataset.leadId);if(x){x.temp=qp.dataset.leadPriority;persist();renderLeads();toast("Priority updated");}return;}
+  const qi=e.target.closest("[data-lead-interest]");if(qi){const x=leads.find(z=>String(z.id)===qi.dataset.leadId);if(x){x.interestStatus=qi.dataset.leadInterest;persist();renderLeads();toast(x.interestStatus==="follow_up"?"Follow-up status updated":x.interestStatus==="interested"?"Marked interested":"Marked not interested");}return;}
+  const qc=e.target.closest("[data-lead-call]");if(qc){const x=leads.find(z=>String(z.id)===qc.dataset.leadCall);if(x){x.callCompleted=!x.callCompleted;x.callCompletedAt=x.callCompleted?new Date().toISOString():"";persist();renderLeads();toast(x.callCompleted?"Call marked completed":"Call mark cleared");}return;}
+  const qw=e.target.closest("[data-lead-wa]");if(qw){const x=leads.find(z=>String(z.id)===qw.dataset.leadWa);if(x){x.whatsappSent=!x.whatsappSent;x.whatsappSentAt=x.whatsappSent?new Date().toISOString():"";persist();renderLeads();toast(x.whatsappSent?"WhatsApp marked as sent":"WhatsApp mark cleared");}return;}
+  const addDeal=e.target.closest("[data-add-deal]");if(addDeal)addDealToCustomer(addDeal.dataset.addDeal);const ds=e.target.closest("[data-deal-stage]");if(ds){const [cid,did]=ds.dataset.dealStage.split("|");changeDealStage(cid,did)}const dd=e.target.closest("[data-deal-delete]");if(dd){const [cid,did]=dd.dataset.dealDelete.split("|");deleteDeal(cid,did)}const v=e.target.closest("[data-view]");if(v)viewLead(v.dataset.view);const ed=e.target.closest("[data-edit]");if(ed){closeDetail();openLead(ed.dataset.edit)}const del=e.target.closest("[data-delete]");if(del)deleteLead(del.dataset.delete);const won=e.target.closest("[data-won]");if(won)setWon(won.dataset.won);const lost=e.target.closest("[data-lost]");if(lost)setLost(lost.dataset.lost);
+  const ft=e.target.closest("[data-follow]");if(ft){followMode=ft.dataset.follow;document.querySelectorAll("#followTabs .tab").forEach(x=>x.classList.toggle("active",x===ft));renderFollowups()}
+  const ub=e.target.closest("[data-unit-bedroom]");if(ub){currentChoice.unitSelection=currentChoice.unitSelection||{bedrooms:"",features:[]};currentChoice.unitSelection.bedrooms=ub.dataset.unitBedroom;document.querySelectorAll("[data-unit-bedroom]").forEach(x=>x.classList.toggle("selected",x===ub));return}
+  const uf=e.target.closest("[data-unit-feature]");if(uf){currentChoice.unitSelection=currentChoice.unitSelection||{bedrooms:"",features:[]};const val=uf.dataset.unitFeature;const arr=currentChoice.unitSelection.features||[];currentChoice.unitSelection.features=arr.includes(val)?arr.filter(x=>x!==val):[...arr,val];uf.classList.toggle("selected",currentChoice.unitSelection.features.includes(val));return}
+  if(e.target.closest("#saveUnitDetails")){commitUnitDetails();return}
+  if(e.target.closest("#clearUnitDetails")){currentChoice.unitSelection={bedrooms:"",features:[]};document.querySelectorAll("[data-unit-bedroom], [data-unit-feature]").forEach(x=>x.classList.remove("selected"));return}
+  const ci=e.target.closest("[data-choice]");if(ci){const val=ci.dataset.choice,tar=currentChoice.target;document.getElementById("choiceOverlay").classList.remove("show");if(tar&&tar.startsWith("projectStatus:")){const idx=Number(tar.split(":")[1]);const map={"Active":"active","Limited Availability":"limited","Sold Out":"sold_out"};if(projectStore[idx]){projectStore[idx].status=map[val]||"active";persistProjects();renderAll();toast(projectStatusLabel(projectStore[idx].status));}currentChoice.target="";return;}if(tar){document.getElementById(tar).dataset.value=val;const textId=tar.replace("Choice","ChoiceText");if(document.getElementById(textId))setChoiceText(textId,val,textId==="projectChoiceText"?"Select project":textId==="budgetChoiceText"?"Choose budget":textId==="categoryChoiceText"?"Select category":textId==="interestChoiceText"?"Select interest":textId==="sourceChoiceText"?"Select source":textId==="tempChoiceText"?"Select priority":textId==="stageChoiceText"?"Choose stage":textId==="actionChoiceText"?"Choose next action":textId==="currencyChoiceText"?"CURRENCY":"Select unit details");if(tar==="budgetChoice"){document.getElementById("fCustomBudget").style.display=val==="Custom Amount"?"block":"none";if(val!=="Custom Amount")document.getElementById("fCustomBudget").value="";}if(tar==="currencyChoice"&&val==="Other Currency"){openChoice("currencyChoice","Choose currency",["AED","SAR","EUR","GBP"],getFormVal("currencyChoice"));return;}if(tar==="calcCurrencyChoice"){updateCalc();}if(tar==="projectChoice")document.getElementById("fCustomProject").style.display=val==="Other"?"block":"none";if(tar==="categoryChoice"){setFormVal("interestChoice","");setChoiceText("interestChoiceText","","Select interest");document.getElementById("fCustomInterest").value="";document.getElementById("fCustomInterest").style.display="none";setFormVal("unitChoice","");setChoiceText("unitChoiceText","","Select unit details")}if(tar==="interestChoice")document.getElementById("fCustomInterest").style.display=val==="Other"?"block":"none";}}
+});
+function choiceTarget(id,title,options,getValue){document.getElementById(id).addEventListener("click",()=>openChoice(id,title,options,getValue?getValue():document.getElementById(id).dataset.value||""))}
+choiceTarget("projectChoice","Choose project",[...activeProjectNames(),"Other"],()=>getFormVal("projectChoice"));choiceTarget("budgetChoice","Choose budget",["1000000","1500000","2000000","2500000","3000000","4000000","5000000","6000000","7500000","10000000","12500000","15000000","20000000","30000000","50000000","75000000","100000000","Custom Amount"],()=>getFormVal("budgetChoice"));choiceTarget("currencyChoice","Choose currency",["EGP","USD","Other Currency"],()=>getFormVal("currencyChoice")||"EGP");
+choiceTarget("categoryChoice","Choose category",categories,()=>getFormVal("categoryChoice"));
+document.getElementById("interestChoice").addEventListener("click",()=>{const cat=getFormVal("categoryChoice")||"Residential";openChoice("interestChoice","Choose interest",interests[cat]||interests.Other,getFormVal("interestChoice"))});
+choiceTarget("sourceChoice","Choose source",sources,()=>getFormVal("sourceChoice")||"Facebook");choiceTarget("tempChoice","Choose priority",priorities,()=>cap(getFormVal("tempChoice")||"Warm"));choiceTarget("stageChoice","Choose stage",stages,()=>getFormVal("stageChoice")||"New");choiceTarget("actionChoice","Choose next action",actions,()=>getFormVal("actionChoice")||"Follow-up");
+choiceTarget("calcCurrencyChoice","Choose currency",["EGP","USD","AED","SAR","EUR","GBP"],()=>getFormVal("calcCurrencyChoice")||"EGP");document.querySelectorAll(".rate-preset").forEach(btn=>btn.addEventListener("click",()=>{document.querySelectorAll(".rate-preset").forEach(x=>x.classList.remove("selected"));btn.classList.add("selected");if(btn.dataset.rate!=="custom"){document.getElementById("calcRate").value=btn.dataset.rate;updateCalc()}else{document.getElementById("calcRate").focus();}}));
+document.getElementById("qProjectChoice").addEventListener("click",()=>openChoice("qProjectChoice","Choose project",[...activeProjectNames(),"Other"],document.getElementById("qProjectChoice").dataset.value||""));
+document.getElementById("qTempChoice").addEventListener("click",()=>openChoice("qTempChoice","Choose priority",priorities,document.getElementById("qTempChoice").dataset.value||"Warm"));
+let campaignPool=[];let campaignSelected=new Set();let campaignEligibleTotal=0;let campaignSkippedTotal=0;
+let campaignQueue=[];let campaignQueueIndex=-1;let campaignSentCount=0;let campaignFiles=[];
+function renderCampaignAttachments(){
+ const box=document.getElementById("campaignAttachmentList");if(!box)return;
+ if(!campaignFiles.length){box.textContent="لم يتم اختيار مرفقات.";return;}
+ box.innerHTML=campaignFiles.map((f,i)=>`<div style="display:flex;justify-content:space-between;gap:8px;padding:5px 0;border-bottom:1px solid var(--line)"><span>${esc(f.name)} <small>(${(f.size/1024/1024).toFixed(2)} MB)</small></span><button type="button" class="mini-btn" data-remove-campaign-file="${i}">إزالة</button></div>`).join("");
+}
+function renderCampaignPage(){
+ const sel=document.getElementById("campaignProject");if(!sel)return;const old=sel.value||"all";const names=[...new Set(leads.map(l=>l.project).filter(Boolean))].sort((a,b)=>a.localeCompare(b));sel.innerHTML='<option value="all">كل المشروعات</option>'+names.map(p=>`<option value="${esc(p)}">${esc(p)}</option>`).join("");sel.value=names.includes(old)?old:"all";updateCampaignStats();
+}
+function updateCampaignStats(){
+ const selected=campaignSelected.size;document.getElementById("campaignEligible").textContent=campaignEligibleTotal.toLocaleString();document.getElementById("campaignSelected").textContent=selected.toLocaleString();document.getElementById("campaignSkipped").textContent=campaignSkippedTotal.toLocaleString();
+}
+function loadCampaignAudience(){
+ const p=document.getElementById("campaignProject").value,q=document.getElementById("campaignSearch").value.trim().toLowerCase(),limit=Number(document.getElementById("campaignLimit").value)||50;
+ const matching=leads.filter(l=>!l.missingName&&l.recordType!=="Unit record without client name"&&(p==="all"||l.project===p)&&(!q||(l.name+" "+l.project+" "+phoneArray(l).join(" ")).toLowerCase().includes(q)));
+ const eligible=matching.filter(l=>phoneArray(l).some(x=>normalizeWhatsApp(x)));campaignEligibleTotal=eligible.length;campaignSkippedTotal=matching.length-eligible.length;
+ campaignPool=eligible.slice(0,limit);campaignSelected=new Set(campaignPool.map(x=>x.id));
+ document.getElementById("campaignRecipients").innerHTML=campaignPool.length?campaignPool.map(l=>{const ph=phoneArray(l).find(x=>normalizeWhatsApp(x));return `<label class="campaign-person"><input type="checkbox" data-campaign-id="${esc(l.id)}" checked><span><strong>${esc(l.name)}</strong><small>${esc(l.project)} • ${esc(ph)} • ${esc(l.sourceFile||"")}</small></span></label>`}).join(""):'<div class="empty">لا توجد أرقام بصيغة واتساب معروفة في هذا الاختيار.</div>';
+ updateCampaignStats();
+}
+function updateCampaignRunUI(){
+ const total=campaignQueue.length, current=campaignQueueIndex>=0&&campaignQueueIndex<total?campaignQueue[campaignQueueIndex]:null;
+ document.getElementById("campaignSent").textContent=campaignSentCount.toLocaleString();
+ document.getElementById("campaignRemaining").textContent=Math.max(0,total-campaignSentCount-(current?1:0)).toLocaleString();
+ document.getElementById("campaignCurrent").textContent=current?`${campaignQueueIndex+1}/${total}`:"—";
+ document.getElementById("campaignNext").disabled=!current;
+ document.getElementById("campaignStop").disabled=!total||campaignQueueIndex<0;
+}
+function openCampaignRecipient(index){
+ const item=campaignQueue[index]; if(!item)return false;
+ const phone=phoneArray(item.lead).map(normalizeWhatsApp).find(Boolean); if(!phone)return false;
+ const message=document.getElementById("campaignMessage").value.trim();
+ const url=`https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+ const opened=window.open(url,"_blank");
+ if(!opened){document.getElementById("campaignStatus").textContent="المتصفح منع فتح نافذة واتساب. اسمح بالنوافذ المنبثقة أو افتح الرابط التالي يدويًا: "+url;return false;}
+ campaignQueueIndex=index;
+ document.getElementById("campaignStatus").textContent=`تم فتح محادثة ${index+1} من ${campaignQueue.length} مع ${item.lead.name}. أرسل الرسالة من واتساب، ثم ارجع واضغط «تم الإرسال يدويًا – افتح التالي». فتح المحادثة لا يعني أن الرسالة أُرسلت.`;
+ updateCampaignRunUI(); return true;
+}
+function startCampaignRun(){
+ if(!campaignSelected.size){toast("حدد عملاء أولًا");return;}
+ if(!document.getElementById("campaignConsent").checked){alert("أكد أن المستلمين وافقوا على استقبال الرسائل التسويقية.");return;}
+ const message=document.getElementById("campaignMessage").value.trim();if(!message){toast("اكتب نص الرسالة أولًا");return;}
+ campaignQueue=campaignPool.filter(l=>campaignSelected.has(l.id)).map(lead=>({lead}));campaignQueueIndex=-1;campaignSentCount=0;
+ if(!campaignQueue.length){toast("لا يوجد مستلمون محددون");return;}
+ const project=document.getElementById("campaignProject");
+ document.getElementById("reviewProject").textContent=project.options[project.selectedIndex]?.text||"كل المشروعات";
+ document.getElementById("reviewCount").textContent=campaignQueue.length.toLocaleString()+" عميل";
+ document.getElementById("reviewFiles").textContent=campaignFiles.length?campaignFiles.map(f=>f.name).join("، "):"لا يوجد مرفقات";
+ document.getElementById("reviewMessage").textContent=message;
+ const dlg=document.getElementById("campaignReviewDialog");
+ if(typeof dlg.showModal==="function")dlg.showModal();else alert("راجع المشروع وعدد العملاء والرسالة قبل المتابعة. سيتم فتح محادثة واحدة فقط، ولن يتم الإرسال تلقائيًا.");
+}
+function confirmCampaignRun(){
+ const dlg=document.getElementById("campaignReviewDialog");if(dlg?.open)dlg.close();
+ openCampaignRecipient(0);
+}
+function campaignNextRecipient(){
+ if(campaignQueueIndex<0||campaignQueueIndex>=campaignQueue.length)return;
+ campaignSentCount++;
+ const next=campaignQueueIndex+1;
+ if(next>=campaignQueue.length){campaignQueueIndex=-1;document.getElementById("campaignStatus").textContent=`انتهت القائمة. تم تأكيد إرسال ${campaignSentCount} رسالة يدويًا من خلالك. النظام لا يتحقق من التسليم أو القراءة.`;updateCampaignRunUI();return;}
+ openCampaignRecipient(next);
+}
+function stopCampaignRun(){campaignQueue=[];campaignQueueIndex=-1;document.getElementById("campaignStatus").textContent="تم إيقاف الحملة. لم يتم فتح بقية المحادثات.";updateCampaignRunUI();}
+async function shareCampaignMedia(){
+ const message=document.getElementById("campaignMessage").value.trim();
+ if(!campaignFiles.length){toast("اختار صورة أو فيديو أو PDF أولًا");return;}
+ if(!document.getElementById("campaignConsent").checked){alert("أكد موافقة العملاء على استقبال الرسائل قبل المشاركة.");return;}
+ try{
+  if(navigator.canShare&&navigator.canShare({files:campaignFiles})&&navigator.share){
+   await navigator.share({files:campaignFiles,title:"NK REAL ESTATE Campaign",text:message});
+  }else{
+   alert("المتصفح الحالي لا يدعم مشاركة الملفات مباشرة. افتح المحادثة في واتساب، ثم أرفق الملفات يدويًا من زر (+) أو مشبك المرفقات داخل واتساب.");
+  }
+ }catch(err){if(err&&err.name!=="AbortError")alert("تعذرت مشاركة الملفات من المتصفح. أرفقها يدويًا داخل واتساب.");}
+}
+function exportCampaignAudience(){
+ if(!campaignSelected.size){toast("حدد مستلمين أولًا");return}
+ if(!document.getElementById("campaignConsent").checked){alert("أكد موافقة العملاء على استقبال الرسائل قبل تصدير قائمة الحملة.");return}
+ const chosen=campaignPool.filter(l=>campaignSelected.has(l.id));const rows=[["Name","Phone","Project","Source File","Source Row"],...chosen.map(l=>[l.name,phoneArray(l).find(x=>normalizeWhatsApp(x))||"",l.project,l.sourceFile||"",l.sourceRow||""])];
+ const csv="\ufeff"+rows.map(r=>r.map(v=>'"'+String(v??"").replace(/"/g,'""')+'"').join(",")).join("\r\n");downloadBlob(new Blob([csv],{type:"text/csv;charset=utf-8"}),"NK_WhatsApp_Campaign_Recipients.csv");
+}
+function copyCampaignMessage(){const msg=document.getElementById("campaignMessage").value;if(!msg.trim()){toast("اكتب نص الرسالة أولًا");return}if(navigator.clipboard?.writeText)navigator.clipboard.writeText(msg).then(()=>toast("تم نسخ الرسالة")).catch(()=>toast("تعذر النسخ من هذا المتصفح"));else toast("النسخ يحتاج فتح الصفحة من Safari أو متصفح آمن")}
+document.getElementById("moreNavBtn").addEventListener("click",()=>document.getElementById("moreOverlay").classList.add("show"));
+document.getElementById("closeMore").addEventListener("click",()=>document.getElementById("moreOverlay").classList.remove("show"));
+document.getElementById("campaignAttachments").addEventListener("change",e=>{campaignFiles=Array.from(e.target.files||[]);renderCampaignAttachments()});
+document.getElementById("campaignAttachmentList").addEventListener("click",e=>{const b=e.target.closest("[data-remove-campaign-file]");if(!b)return;campaignFiles.splice(Number(b.dataset.removeCampaignFile),1);const dt=new DataTransfer();campaignFiles.forEach(f=>dt.items.add(f));document.getElementById("campaignAttachments").files=dt.files;renderCampaignAttachments()});
+document.getElementById("campaignShareMedia").addEventListener("click",shareCampaignMedia);
+document.getElementById("campaignClearMedia").addEventListener("click",()=>{campaignFiles=[];document.getElementById("campaignAttachments").value="";renderCampaignAttachments()});
+document.getElementById("campaignLoad").addEventListener("click",loadCampaignAudience);
+document.getElementById("campaignProject").addEventListener("change",()=>{campaignPool=[];campaignSelected.clear();document.getElementById("campaignRecipients").textContent="اضغط عرض العملاء بعد اختيار المشروع.";updateCampaignStats()});
+document.getElementById("campaignSelectAll").addEventListener("click",()=>{campaignPool.forEach(x=>campaignSelected.add(x.id));document.querySelectorAll("[data-campaign-id]").forEach(x=>x.checked=true);updateCampaignStats()});
+document.getElementById("campaignClear").addEventListener("click",()=>{campaignSelected.clear();document.querySelectorAll("[data-campaign-id]").forEach(x=>x.checked=false);updateCampaignStats()});
+document.getElementById("campaignRecipients").addEventListener("change",e=>{const c=e.target.closest("[data-campaign-id]");if(!c)return;if(c.checked)campaignSelected.add(c.dataset.campaignId);else campaignSelected.delete(c.dataset.campaignId);updateCampaignStats()});
+document.getElementById("campaignExport").addEventListener("click",exportCampaignAudience);document.getElementById("campaignCopy").addEventListener("click",copyCampaignMessage);
+document.getElementById("campaignStart").addEventListener("click",startCampaignRun);document.getElementById("campaignReviewCancel").addEventListener("click",()=>document.getElementById("campaignReviewDialog").close());document.getElementById("campaignReviewConfirm").addEventListener("click",confirmCampaignRun);document.getElementById("campaignNext").addEventListener("click",campaignNextRecipient);document.getElementById("campaignStop").addEventListener("click",stopCampaignRun);updateCampaignRunUI();
+document.getElementById("moreOverlay").addEventListener("click",e=>{if(e.target.id==="moreOverlay")document.getElementById("moreOverlay").classList.remove("show")});
+document.getElementById("closeProject").addEventListener("click",closeProjectForm);
+document.getElementById("cancelProject").addEventListener("click",closeProjectForm);
+document.getElementById("saveProject").addEventListener("click",saveProject);
+document.getElementById("projectOverlay").addEventListener("click",e=>{if(e.target.id==="projectOverlay")closeProjectForm()});
+document.getElementById("closeChoice").addEventListener("click",closeChoice);
+document.getElementById("choiceOverlay").addEventListener("click",e=>{if(e.target.id==="choiceOverlay")closeChoice()});
+document.getElementById("searchInput").addEventListener("input",()=>{leadsPage=0;renderLeads()});function openDashboardSearch(){const q=document.getElementById("dashboardSearch").value.trim();showPage("leads");document.getElementById("searchInput").value=q;document.getElementById("projectFilter").value="all";leadsPage=0;renderLeads()}
+document.getElementById("dashboardSearchBtn").addEventListener("click",openDashboardSearch);
+document.getElementById("openUnnamedRecords")?.addEventListener("click",()=>{unnamedPage=0;showPage("unnamed");renderUnnamedRecords()});
+document.getElementById("backFromUnnamed")?.addEventListener("click",()=>showPage("dashboard"));
+document.getElementById("unnamedSearch")?.addEventListener("input",()=>{unnamedPage=0;renderUnnamedRecords()});
+document.getElementById("unnamedPrev")?.addEventListener("click",()=>{unnamedPage=Math.max(0,unnamedPage-1);renderUnnamedRecords()});
+document.getElementById("unnamedNext")?.addEventListener("click",()=>{unnamedPage++;renderUnnamedRecords()});
+document.getElementById("dashboardSearch").addEventListener("keydown",e=>{if(e.key==="Enter")openDashboardSearch()});
+document.getElementById("dashboardProjects").addEventListener("click",e=>{const back=e.target.closest("#dashboardBack");if(back){dashboardGroup=null;renderDashboard();return;}const folder=e.target.closest("[data-dashboard-group]");if(folder){dashboardGroup=folder.dataset.dashboardGroup;renderDashboard();return;}const b=e.target.closest("[data-dashboard-project]");if(!b)return;activeProjectGroup=null;showPage("leads");document.getElementById("projectFilter").value=b.dataset.dashboardProject;leadsPage=0;renderLeads()});document.getElementById("stageFilter").addEventListener("change",()=>{leadsPage=0;renderLeads()});document.getElementById("tempFilter").addEventListener("change",()=>{leadsPage=0;renderLeads()});document.getElementById("projectFilter").addEventListener("change",()=>{activeProjectGroup=null;leadsPage=0;renderLeads()});document.getElementById("closeDetail").addEventListener("click",closeDetail);
+document.getElementById("leadOverlay").addEventListener("click",e=>{if(e.target.id==="leadOverlay")closeLead()});document.getElementById("quickOverlay").addEventListener("click",e=>{if(e.target.id==="quickOverlay")document.getElementById("quickOverlay").classList.remove("show")});document.getElementById("detailOverlay").addEventListener("click",e=>{if(e.target.id==="detailOverlay")closeDetail()});
+document.getElementById("exportJson").addEventListener("click",exportJson);document.getElementById("exportCsv").addEventListener("click",exportCsv);document.getElementById("importFile").addEventListener("change",e=>{if(e.target.files[0])importJson(e.target.files[0]);e.target.value=""});document.getElementById("importLeadsFile").addEventListener("change",e=>{if(e.target.files[0])importLeadsFile(e.target.files[0]);e.target.value=""});document.getElementById("clearData").addEventListener("click",()=>{if(confirm(lang==="ar"?"مسح كل بيانات الـCRM؟":"Clear all CRM data?")){leads=[];persist();renderAll();toast("Lead deleted")}});
+document.getElementById("unitChoice").addEventListener("click",openUnitDetailsChoice);document.getElementById("calcValue").addEventListener("input",updateCalc);document.getElementById("calcRate").addEventListener("input",updateCalc);
+initPersistentDB().then(()=>{renderAll();syncChoiceHighlights();updateCalc()}).catch(()=>{renderAll();syncChoiceHighlights();updateCalc();toast("التخزين الدائم يحتاج فتح النظام من Safari على رابط آمن HTTPS")});
+</script>
+<script>if(location.protocol==="https:"&&"serviceWorker" in navigator){navigator.serviceWorker.register("./sw.js").catch(()=>{});}</script>
+</body>
+</html>
